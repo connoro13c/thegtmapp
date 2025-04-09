@@ -1,0 +1,114 @@
+/* Enhanced Dropdown Styling */
+select option:hover,
+select option:focus,
+select option:active,
+select option:checked {
+  background: linear-gradient(to right, #4f46e5, #6366f1) !important;
+  background-color: #6366f1 !important; /* fallback for old browsers */
+  color: white !important;
+  font-weight: bold !important;
+  /* The following styles help ensure visibility against dark backgrounds */
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.5) !important;
+  border-left: 4px solid #818cf8 !important; /* lighter color for visibility */
+  transform: translateX(2px) !important;
+  position: relative !important;
+  z-index: 10 !important;
+  outline: 2px solid #818cf8 !important;
+  outline-offset: -1px !important;
+}
+
+/* Add a custom arrow for the dropdown */
+select {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+  background-position: right 0.5rem center;
+  background-repeat: no-repeat;
+  background-size: 1.5em 1.5em;
+  padding-right: 2.5rem;
+}
+
+select:hover {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+select:focus-within {
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+}
+
+/* Custom styling for select options */
+option {
+  padding: 10px !important;
+  cursor: pointer !important;
+  margin: 4px 0 !important;
+  border-radius: 4px !important;
+  transition: all 0.2s ease-out !important;
+}
+
+/* Special highlight effect */
+option:hover {
+  box-shadow: 0 0 0 2px #818cf8, 0 0 0 4px rgba(129, 140, 248, 0.5) !important;
+  outline: none !important;
+  position: relative !important;
+  z-index: 10 !important;
+  transform: scale(1.05) !important;
+  background-color: #6366f1 !important;
+  color: white !important;
+}
+
+/* Add specific styling for options in dark dropdowns */
+select option {
+  background-color: #1f2937 !important; /* dark background */
+  color: white !important;
+  border-bottom: 1px solid #374151 !important;
+}
+
+select option:not(:checked):hover {
+  background-color: #4f46e5 !important;
+  background: linear-gradient(to right, #4f46e5, #6366f1) !important;
+  color: white !important;
+}
+
+/* Add a transition effect when hovering */
+select,
+option {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Special styling for dark-themed dropdowns like in the Trial flow */
+/* This targets the dark dropdown on hover more effectively */
+select.dark-select option:hover,
+option:hover,
+option:focus {
+  background-color: #4f46e5 !important;
+  color: white !important;
+  font-weight: bold !important;
+  text-decoration: underline !important;
+  border-radius: 4px !important;
+  padding-left: 15px !important;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2) !important;
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.5) !important;
+}
+
+/* Enhanced visibility for dark UI context */
+.dark select option,
+select.dark-select option {
+  color: white !important;
+  background-color: #1f2937 !important;
+  padding: 12px !important;
+  margin: 4px !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.dark select option:hover,
+select.dark-select option:hover {
+  background: linear-gradient(90deg, #4f46e5, #6366f1) !important;
+  border-left: 4px solid #818cf8 !important;
+  text-shadow: 0 0 5px white !important;
+}
+
+/* Add a left indicator when hovering */
+option:hover::before {
+  content: '→ ' !important;
+  display: inline-block !important;
+  margin-right: 5px !important;
+  color: white !important;
+}

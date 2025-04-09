@@ -1,0 +1,79 @@
+/*
+ * Force dropdown styling overrides - this is needed because browsers handle dropdowns differently
+ * and many browser default styles are applied with high specificity
+ */
+
+@supports (-webkit-appearance: none) or (-moz-appearance: none) {
+  /* Webkit (Chrome, Safari) and Firefox specific overrides */
+  option:hover,
+  option:focus,
+  option:active {
+    background: #4f46e5 !important;
+    background-color: #4f46e5 !important;
+    color: white !important;
+    box-shadow: inset 0 0 0 30px #4f46e5 !important;
+    -webkit-box-shadow: inset 0 0 0 30px #4f46e5 !important;
+    -webkit-text-fill-color: white !important;
+  }
+  
+  /* Ensure selected options are clearly distinguished */
+  option:checked {
+    background: #4f46e5 !important;
+    background-color: #4f46e5 !important;
+    color: white !important;
+    font-weight: bold !important;
+  }
+  
+  /* Pseudo-element technique to enhance visibility */
+  option:hover::before {
+    content: '→ ' !important;
+    display: inline-block !important;
+    position: relative !important;
+  }
+
+  /* Option padding and spacing */
+  option {
+    padding: 10px 15px !important;
+    margin: 2px 0 !important;
+  }
+  
+  /* Custom styling for select */
+  select {
+    cursor: pointer !important;
+    border-radius: 4px !important;
+    transition: all 0.2s !important;
+  }
+  
+  select:hover, select:focus {
+    border-color: #4f46e5 !important;
+    box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.25) !important;
+  }
+}
+
+/* MS Edge and IE specific styles */
+@supports (-ms-ime-align:auto) or (-ms-accelerator:true) {
+  select option:hover {
+    background-color: #4f46e5 !important;
+    color: white !important;
+  }
+}
+
+/* Firefox specific - using attribute selector to further increase specificity */
+@-moz-document url-prefix() {
+  select[name] option:hover,
+  select option:hover {
+    background-color: #4f46e5 !important;
+    color: white !important;
+    box-shadow: 0 0 0 30px #4f46e5 inset !important;
+  }
+}
+
+/* Apply styling directly to option elements with maximum specificity */
+html body option:hover,
+html body option:focus,
+html body option:active,
+html body option:checked {
+  background-color: #4f46e5 !important;
+  color: white !important;
+  text-decoration: underline !important;
+}

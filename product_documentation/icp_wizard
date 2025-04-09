@@ -1,0 +1,173 @@
+ICP Wizard – Option A: I Already Know My ICP
+
+Flow:
+
+    Step 1: User lands on a page/component with two input paths:
+
+        (a) Free-form input (type or voice):
+
+            User types or uses voice dictation to describe their ICP
+
+            App parses input and extracts structured data points
+
+            UI guidance provided to prompt coverage of:
+
+                Industry
+
+                Company size (employee range)
+
+                Annual revenue range
+
+                HQ region(s)
+
+                Tech stack
+
+                Business model (B2B/B2C/Both, SaaS/Services/Ecomm)
+
+                Common use cases
+
+                Key buyer personas
+
+                Other commonalities
+
+                Negative fit traits
+
+            Suggested Input Template (Toggle Option):
+
+                Provide a toggleable example input that users can edit or use as inspiration.
+
+                Example content:
+
+                    “Our best-fit customers are usually fast-growing B2C SaaS companies with 50 to 500 employees, based in North America. They use tools like Stripe and Shopify, and their main use case is reducing cart abandonment. We typically sell to heads of marketing or growth. Hardware or government orgs are usually a bad fit.”
+
+                UI: "Show Example" button reveals this text inside the input field or above it.
+
+            Inline Field Extraction Feedback:
+
+                As the user types or speaks, the app parses input in real time and displays extracted fields in a sidebar or chip-style summary area.
+
+                Example feedback panel:
+
+                    So far we’ve identified:
+
+                        ✔ Industry: B2C SaaS
+
+                        ✔ Size: 50–500
+
+                        ✔ Tools: Stripe, Shopify
+
+                        ☐ Region: Not yet mentioned
+
+                        ☐ Use cases: Not yet mentioned
+
+                        ☐ Buyer: Not yet mentioned
+
+                Helps the user see progress and gaps in their input as they work.
+
+(b) Manual structured input:
+
+User fills out specific fields directly
+
+Fields include:
+
+Industry (multi-select with type-ahead)
+
+Company size (employee range)
+
+Annual revenue range (optional)
+
+HQ region(s) (multi-select country/region input)
+
+Tech stack (tag input)
+
+Business model (toggle: B2B/B2C/Both, SaaS/Services/Ecomm)
+
+Common use cases (free-text or tag-based input)
+
+Key buyer personas
+
+Other commonalities
+
+Negative fit traits (checkboxes + free-text)
+
+Real-Time Feedback Component:
+
+As the user completes fields, display a Coverage Meter or ICP Progress Bar
+
+Example: “You’ve defined 6 of 9 recommended attributes” or “70% ICP coverage achieved”
+
+Helps guide the user to complete a strong ICP profile without overwhelming them
+
+Optional Validation Step:
+
+If user has uploaded or connected account data:
+
+Show a "Test ICP Against My Data" button
+
+Output match stats: “124 of 380 active accounts match your ICP (~33%)”
+
+Encourage user to refine ICP or use scoring module
+
+Outcome & Value:
+
+Enables fast entry for experienced users who already know their ICP
+
+Offers flexibility: either speak/type freely or fill out a structured form
+
+Real-time feedback encourages completeness and accuracy
+
+Optional validation ties ICP directly to their data and pipeline quality
+
+Output is normalized and ready to use in scoring, segmentation, and other downstream modules
+
+Technical Spec:
+
+Frontend:
+
+Single-page component with tab/toggle between Free-form and Manual Input modes
+
+Voice input support (browser-native or integrated SDK)
+
+Inline validation and autofill suggestions (industry, tech stack, etc.)
+
+Progress bar or percentage tracker showing ICP definition completeness
+
+Optional: Data match summary if account data is available
+
+Backend:
+
+For free-form input:
+
+NLP extraction pipeline to identify structured attributes from text
+
+Confidence scoring on extracted fields
+
+Return pre-parsed values to frontend for user confirmation
+
+For manual input:
+
+Validate and normalize all fields
+
+If account list is uploaded:
+
+Compare account attributes to ICP profile fields
+
+Calculate match rate and return match stats
+
+Store ICP as structured JSON, compatible with other ICP paths
+
+Output JSON Example:
+
+{
+  "industries": ["Ecommerce", "Consumer Software"],
+  "employee_range": [50, 500],
+  "revenue_range": [5000000, 50000000],
+  "regions": ["North America", "Western Europe"],
+  "tech_stack": ["Shopify", "Stripe"],
+  "business_models": ["B2C", "SaaS"],
+  "use_cases": ["subscription billing", "abandoned cart recovery"],
+  "buyer_personas": ["VP of Marketing", "Head of Growth"],
+  "other_commonalities": ["high-growth", "DTC brands"],
+  "bad_fit_signals": ["under 10 employees", "hardware-focused"]
+}
+
