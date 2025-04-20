@@ -212,11 +212,14 @@ export async function searchTextCache(keyword: string): Promise<Array<{ fileName
   return results;
 }
 
+import { needsProcessing, recordProcessedFile, getProcessedFileStats } from './fileTracker';
+
 /**
  * Ingest all files from a Google Drive folder
  * @param folderId The Google Drive folder ID
+ * @param forceReprocess Force reprocessing of all files, even if already processed
  */
-export async function ingest(folderId: string): Promise<void> {
+export async function ingest(folderId: string, forceReprocess: boolean = false): Promise<void> {
   try {
     console.log(`Starting ingestion from Google Drive folder: ${folderId}`);
     
@@ -227,6 +230,15 @@ export async function ingest(folderId: string): Promise<void> {
     const files = await googleDriveService.listFiles(folderId);
     console.log(`Found ${files.length} files in folder`);
     
+    // Get stats on previously processed files
+    const stats = getProcessedFileStats();
+    console.log(`Previously processed ${stats.totalFiles} files`);
+    
+    // Keep track of processed files during this run
+    let newFileCount = 0;
+    let skippedFileCount = 0;
+    let errorCount = 0;
+    
     // Process each file
     for (const file of files) {
       // Skip folders
@@ -234,15 +246,26 @@ export async function ingest(folderId: string): Promise<void> {
         continue;
       }
       
+      // Skip already processed files unless forceReprocess is true
+      if (!forceReprocess && !needsProcessing(file.id)) {
+        console.log(`Skipping already processed file: ${file.name} (${file.id})`);
+        skippedFileCount++;
+        continue;
+      }
+      
       try {
         await processFile(file.id, file.name, file.mimeType, collection);
+        // Record successful processing
+        recordProcessedFile(file.id, file.name, file.mimeType);
+        newFileCount++;
       } catch (fileError) {
         console.error(`Error processing file ${file.name}:`, fileError);
+        errorCount++;
         // Continue with next file
       }
     }
     
-    console.log('Folder ingestion complete');
+    console.log(`Folder ingestion complete. Stats: ${newFileCount} new files processed, ${skippedFileCount} skipped, ${errorCount} errors.`);
   } catch (error) {
     console.error('Error during folder ingestion:', error);
     throw error;

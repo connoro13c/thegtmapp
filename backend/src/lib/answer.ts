@@ -27,13 +27,42 @@ async function generateEmbedding(text: string): Promise<number[]> {
 }
 
 /**
- * Format document chunks with metadata into a readable context string
+ * Response structure for the answer function
+ */
+interface AnswerResponse {
+  text: string;
+  sources: {
+    num: number;
+    file: string;
+    url: string;
+    chunkId?: string;
+  }[];
+}
+
+/**
+ * Format document chunks with metadata into a readable context string with citations
  * @param chunks Array of document chunk texts
  * @param metadatas Array of metadata for each chunk
- * @returns Formatted context string
+ * @returns Object with formatted context string and citation mapping
  */
-function formatContextChunks(chunks: string[], metadatas: Record<string, unknown>[]): string {
+function formatContextChunks(chunks: string[], metadatas: Record<string, unknown>[]): { context: string; citationMap: Map<string, number> } {
   let context = '';
+  // Create citation mapping
+  const citationMap = new Map<string, number>();
+  let nextCitationNum = 1;
+  
+  function addCitation(meta: Record<string, unknown>): number {
+    // Create a unique key for this citation
+    const fileName = meta.fileName as string || 'Unknown';
+    const chunkId = meta.chunkIndex !== undefined ? `${meta.chunkIndex}` : '0';
+    const key = `${fileName}#${chunkId}`;
+    
+    if (!citationMap.has(key)) {
+      citationMap.set(key, nextCitationNum++);
+    }
+    
+    return citationMap.get(key) || 0; // Fallback to 0 if not found (should never happen)
+  }
   
   for (let i = 0; i < chunks.length; i++) {
     const metadata = metadatas[i];
@@ -57,20 +86,29 @@ function formatContextChunks(chunks: string[], metadatas: Record<string, unknown
       context += 'DOCUMENT: Unknown Source\n\n';
     }
     
-    // Add document content
-    context += `${chunks[i]}\n\n---\n\n`;
+    // Get citation number for this chunk
+    const citationNum = addCitation(metadata);
+    
+    // Add document content with citation marker
+    context += `${chunks[i]}\n[CITE:${citationNum}]\n\n---\n\n`;
   }
   
-  return context;
+  return { context, citationMap };
 }
 
 /**
- * Generate an AI answer based on document context
+ * Generate an AI answer based on document context with citations
  * @param query User's question
  * @param context Document context to use for answering
- * @returns AI-generated answer
+ * @param citationMap Map of citation keys to citation numbers
+ * @returns AI-generated answer with citation information
  */
-async function generateGptAnswer(query: string, context: string): Promise<string> {
+async function generateGptAnswer(
+  query: string, 
+  context: string, 
+  citationMap: Map<string, number>,
+  metadatas: Record<string, unknown>[]
+): Promise<AnswerResponse> {
   // Create prompt for GPT
   const prompt = `
 You are a helpful assistant for a Go-to-Market (GTM) strategy team. You answer questions based on the provided document context from the company's materials.
@@ -78,7 +116,9 @@ You are a helpful assistant for a Go-to-Market (GTM) strategy team. You answer q
 Answer the question using ONLY the information from the provided document context.
 If the context doesn't contain enough information to answer the question fully, acknowledge what you do know from the context and then state that you don't have complete information.
 
-Be specific in your answers and cite which documents contain the information.
+Be specific in your answers and cite your sources. You MUST use citation markers [CITE:X] when referencing information from the documents to indicate which source contains the information.
+
+For example: "The Q1 revenue was $500,000 [CITE:1] and the target for Q2 is $750,000 [CITE:2]"
 
 CONTEXT:
 ${context}
@@ -96,11 +136,50 @@ ANSWER:`;
       max_tokens: 1000
     });
     
-    return completion.choices[0].message.content || 
+    let answer = completion.choices[0].message.content || 
       "I don't have enough information to answer that question.";
+      
+    // Replace citation markers with superscript format
+    answer = answer.replace(/\[CITE:(\d+)\]/g, '[^$1]');
+    
+    // Create sources array from citation map
+    const sources = Array.from(citationMap.entries()).map(([key, num]) => {
+      const [file, chunkId] = key.split('#');
+      let url = '';
+      
+      // Try to find the URL in metadata if available
+      const meta = metadatas.find(m => m?.fileName === file && 
+                                   (m?.chunkIndex === Number(chunkId) || 
+                                    m?.chunkIndex === chunkId));
+      
+      if (meta?.url) {
+        url = meta.url as string;
+      } else if (meta?.fileId) {
+        // Construct Google Drive URL if fileId is available
+        url = `https://drive.google.com/file/d/${meta.fileId}/view`;
+      } else {
+        // Default empty URL if no identifiers available
+        url = '#';
+      }
+      
+      return {
+        num,
+        file,
+        url,
+        chunkId
+      };
+    });
+    
+    return {
+      text: answer,
+      sources
+    };
   } catch (error) {
     console.error('Error generating GPT answer:', error);
-    return "Sorry, there was an error generating an answer. Please try again later.";
+    return {
+      text: "Sorry, there was an error generating an answer. Please try again later.",
+      sources: []
+    };
   }
 }
 
@@ -219,9 +298,9 @@ async function findDocumentsByName(
 /**
  * Generate answer to user query using vector search and LLM
  * @param query User question
- * @returns AI-generated answer
+ * @returns AI-generated answer with citations and sources
  */
-export async function answer(query: string): Promise<string> {
+export async function answer(query: string): Promise<AnswerResponse> {
   try {
     console.log(`Processing query: "${query}"`);
     
@@ -339,8 +418,8 @@ export async function answer(query: string): Promise<string> {
       const matchResult = await findDocumentsByName(collection, keywords);
       if (matchResult) {
         console.log(`Found ${matchResult.chunks.length} chunks from document name matching`);
-        const context = formatContextChunks(matchResult.chunks, matchResult.metadatas);
-        return await generateGptAnswer(query, context);
+        const { context, citationMap } = formatContextChunks(matchResult.chunks, matchResult.metadatas);
+        return await generateGptAnswer(query, context, citationMap, matchResult.metadatas);
       }
       
       // FALLBACK METHOD 2: Try text cache with keyword search
@@ -378,7 +457,19 @@ export async function answer(query: string): Promise<string> {
               context += `${result.text}\n\n---\n\n`;
             }
             
-            return await generateGptAnswer(query, context);
+            // Create a basic citation map for text cache results
+            const citationMap = new Map<string, number>();
+            const textCacheMetadatas = topResults.map((result, index) => {
+              const key = `${result.fileName}#0`;
+              citationMap.set(key, index + 1);
+              return {
+                fileName: result.fileName,
+                chunkIndex: 0,
+                totalChunks: 1
+              };
+            });
+            
+            return await generateGptAnswer(query, context, citationMap, textCacheMetadatas);
           }
         }
       } catch (error) {
@@ -386,14 +477,20 @@ export async function answer(query: string): Promise<string> {
       }
       
       // If all fallback methods failed
-      return "I don't have enough information to answer that question. Please try asking something else or check if the documents have been properly ingested.";
+      return {
+        text: "I don't have enough information to answer that question. Please try asking something else or check if the documents have been properly ingested.",
+        sources: []
+      };
     }
     
     // Format chunks into context string and generate answer
-    const context = formatContextChunks(chunks, metadatas);
-    return await generateGptAnswer(query, context);
+    const { context, citationMap } = formatContextChunks(chunks, metadatas as Record<string, unknown>[]);
+    return await generateGptAnswer(query, context, citationMap, metadatas as Record<string, unknown>[]);
   } catch (error) {
     console.error('Error answering query:', error);
-    return `Error processing your question: ${error instanceof Error ? error.message : 'Unknown error'}`;
+    return {
+      text: `Error processing your question: ${error instanceof Error ? error.message : 'Unknown error'}`,
+      sources: []
+    };
   }
 }

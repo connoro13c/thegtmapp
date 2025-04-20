@@ -4,11 +4,20 @@ import { MessageSquare, X, Maximize2, Minimize2 } from 'lucide-react';
 import ChatMessage from './ChatMessage';
 import ChatInput from './ChatInput';
 
+// Source object structure that comes from the backend
+interface Source {
+  num: number;
+  file: string;
+  url: string;
+  chunkId?: string;
+}
+
 interface Message {
   id: string;
   text: string;
   sender: 'user' | 'bot';
   timestamp: Date;
+  sources?: Source[];
 }
 
 const ChatBot = () => {
@@ -76,7 +85,35 @@ const ChatBot = () => {
         }
         
         const data = await response.json();
-        responseText = data.message || 'Sorry, no response received from server.';
+        
+        // Handle structured response format from the backend
+        if (typeof data === 'object' && data !== null) {
+          if (data.text) {
+            // New structured response format with text and sources
+            responseText = data.text;
+            
+            // Create bot message with structured data
+            const botMessage: Message = {
+              id: Date.now().toString(),
+              text: responseText,
+              sender: 'bot',
+              timestamp: new Date(),
+              sources: data.sources || []
+            };
+            
+            setMessages((prev) => [...prev, botMessage]);
+            setIsLoading(false);
+            return; // Exit early as we've already handled the message
+          } 
+          
+          if (data.message) {
+            // Legacy format (plain string message)
+            responseText = data.message;
+            return;
+          }
+          
+          responseText = 'Sorry, no response received from server.';
+        }
       } catch (error) {
         console.error('Error fetching response:', error);
         responseText = 'Sorry, there was an error connecting to the server. Please try again later.';
