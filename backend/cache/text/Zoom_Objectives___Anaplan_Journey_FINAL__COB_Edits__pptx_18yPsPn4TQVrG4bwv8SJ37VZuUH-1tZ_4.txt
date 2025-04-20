@@ -1,0 +1,543 @@
+Zoom_Objectives + Anaplan Journey FINAL (COB Edits).pptx
+
+
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Objectives for Zoom Meeting With Ryan Azus CRO
+01
+02
+03
+Understand feedback on our Partnership -> How are we doing?
+Disruption of Zoom journey.....impact on goals, current state, gaps, risks, etc.
+Opportunity to leverage Anaplan more broadly to chart path to revenue goals.
+04
+Ryan’s sponsorship to collaborate on strategy and business case for Zoom to roll out his
+connected planning vision with Anaplan
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Identified Pain Points
+Growth, Sclae, and Complexity
+•
+Poor Rep Attainment (tread lightly around this data point... this was shared with us in confidence but purposefully)
+•
+Based on our intel, many sales team only have 30% of their reps hitting their number. DIG INTO THIS
+•
+Territories are poorly designed, unequal, and quotas are aspirational and not based on good, meaningful data
+•
+Attrition isn’t bad... yet. Too many people have too much money in stock. Salesforce is riddled with “zombie reps”
+•
+No single source of truth 
+•
+New telephony business is a strategic initiative. Currently is managed separately. Not part of a unified revenue forecast
+•
+New way of running business. No way to track KPIs, what-if / scenario model, on potential outcomes in the context of the 
+greater business. 
+•
+Renewals are a major source of revenue and an under-developed arm of the business (this comes up frequently as a 
+major pain point / concern in informal conversation as well as the stated reason behind the Global Revenue 
+Forecasting RFP)
+•
+Inability to forecast effectively
+•
+Forecast accuracy across net-revenue drivers including B2B, B2C, and Telephony business as well as renewals / churn
+•
+Hiring, onboarding, and enabling AEs month over month
+•
+Channel alignment – WHAT DOES THIS MEAN? NEED MORE SPECIFICS
+Cost Savings
+•
+Plans created in Google and cannot react to business dynamics
+•
+Resource intensive and static
+•
+Plans exist in silos
+•
+Issues with downstream quota changes (managers are making changes, ops doesn’t see change until later... results in 
+reps targeting same account, crediting / quota issues, etc.)
+•
+Connect spiffs and incentives to drive behavior and reduce costly errors
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Capacity & 
+Quota 
+Planning
+Incentives & 
+Rewards
+Lead Gen
+Income 
+Statement 
+Forecasting
+Balance 
+Sheet & 
+Cash Flow
+Long Range 
+Planning
+Capex 
+Planning
+CONNECTE
+D 
+PLANNING
+Compensation 
+Modeling
+Sales 
+Forecasting
+Workforce 
+Planning
+Talent
+Strategy
+Current Connected 
+Planning
+Renewals 
+(churn risk)
+Corporate 
+Revenue 
+Planning
+Revenue 
+Planning
+Budget vs 
+Actual
+CS Adoption 
+& Insights
+Pipeline 
+Optimization
+COGS / 
+OCOGS 
+Planning
+CRO Cockpit
+Account 
+Segmentatio
+n
+Live at Zoom
+Territory
+Oracle
+Salesforce
+Workday
+Potential FIN
+Potential SPM
+Potential MKT
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Zoom’s connected revenue strategy today – Only 2% of the way to plan
+Four stages to transform commercial outcomes for Zoom
+ 
+Spiffs and 
+Incentives
+Forecasting
+ 
+Finance
+Sales 
+Planning
+Develop go-to-market 
+plans to achieve goals 
+and accomplish success 
+•
+Account Segmentation
+•
+Territory Planning
+•
+Quota Planning 
+•
+Sales Capacity Planning
+•
+Marketing budget, spend, and 
+performance planning
+Create performance levers 
+that drive motivation to 
+desired outcomes
+•
+Incentives Compensation
+•
+Spiffs & Rewards
+•
+Promotions
+Increase accuracy and 
+foster a commitment to 
+sales excellence
+•
+Sales Forecast
+•
+Churn Forecast
+•
+Demand Planning
+Align strategy to corporate 
+goals and targets to ensure 
+organizational alignment
+•
+Budget vs Actual
+•
+Workforce Planning
+•
+Income Statement 
+Forecasting
+•
+Balance Sheet and Cash 
+Flow
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Zoom’s connected revenue strategy – Tomorrow 100%!
+Four stages to transform commercial outcomes for Zoom
+ 
+Spiffs and 
+Incentives
+Forecasting
+ 
+Finance
+Sales 
+Planning
+Develop go-to-market 
+plans to achieve goals 
+and accomplish success 
+•
+Account Segmentation
+•
+Territory Planning
+•
+Quota Planning 
+•
+Sales Capacity Planning
+•
+Marketing budget, spend, and 
+performance planning
+Create performance levers 
+that drive motivation to 
+desired outcomes
+•
+Incentives Compensation
+•
+Spiffs & Rewards
+•
+Promotions
+Increase accuracy and 
+foster a commitment to 
+sales excellence
+•
+Sales Forecast
+•
+Churn Forecast
+•
+Demand Planning
+Align strategy to corporate 
+goals and targets to ensure 
+organizational alignment
+•
+Budget vs Actual
+•
+Workforce Planning
+•
+Income Statement 
+Forecasting
+•
+Balance Sheet and Cash 
+Flow
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+LTM 
+Apr-2021
+2022e2023e2024e
+0.02
+0.05
+0.06
+RevenueImpact
+LTM 
+Apr-2021
+2022e2023e2024e
+0.01
+0.02
+0.02
+SG&AImpact
+LTM 
+Apr-2021
+2022e2023e2024e
+0.01
+0.03
+0.04
+ProfitImpact
+Business case
+Anaplan can improve Zoom profit by ~$ 90.0 million
+Note: 
+Business case value impacts are estimates based on publicly available data. Precise value impacts would need to be developed and validated in collaboration with the customer.
+*Value impact for 2022e has been reduced because there are fewer than 12 months till the end of Zoom's fiscal year.
+Revenue forecast
+A 1% improvement could lead to an increase of $120.0 
+million in revenue over the next three years, from 
+improvements to Subscription and Services.
+LTM Apr-2021 - 2024e
+Revenue ($ billions)
+SG&A forecast
+Anaplan capabilities could help Zoom to achieve $50.0 
+million of cost savings over the next three years through 
+reduced R&D, Sales & Marketing, and Administrative.
+LTM Apr-2021 - 2024e
+SG&A ($ billions)
+Profit forecast
+Implementing Anaplan solutions could help Zoom 
+generate additional profits of $90.0 million over the next 
+three years.
+LTM Apr-2021 - 2024e
+Profit (EBIT) ($ billions)
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Zoom has a SPM Plan
+Presented By Spaulding Ridge
+
+
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Zoom internal Plan – GTM 
+Sales Ops 
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Appendix
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+SELA 
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Anaplan Recommended 
+Solutions 
+(DataBook)
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Recommended solutions to drive value for Zoom (1/2)
+Anaplan solutions support Zoom's strategic priorities
+Anaplan - Sales
+Optimize team performance by setting goals and 
+incentives, enabling accountability, and anticipating 
+market changes
+Quota Modeling
+Convert revenue targets to quotas and 
+assign each to the appropriate sales 
+resource. Dashboards
+Territory/Segmentation Planning
+Review account and geographical 
+assignments and combine them to create 
+discrete sales territories. Dashboards
+Sales Forecasting
+Periodic sales forecasting and pipeline 
+analysis to improve visibility into target and 
+quota attainment. Dashboard/CRO Cockpit
+Improves: SG&A Margin, Revenue Per 
+Employee
+Strategic Overlap: Revenue, Sales 
+Productivity, Sales & Operations Planning, 
+Sales Growth, Sales Analytics, Collaboration, 
+Strategy
+Anaplan - Supply Chain
+Adapt and plan with rapid forecasting to coordinate 
+production and sales so you can drive optimized 
+margins and profit
+Sales & Operations Planning
+Executive dashboard and strategic plan that 
+consolidates all SCM data to enable better 
+SCM decision-making.
+Improves: SG&A Margin, Revenue Per 
+Employee
+Strategic Overlap: Sales & Operations 
+Planning, Innovation, Sales Growth, Marketing
+Anaplan - Human Resources
+Keep a real-time view of your entire workforce, and 
+forecast multiple scenarios so pivoting to thrive is 
+continuously within reach
+Talent Strategy
+Understanding current talent as it relates to 
+organizational strategy and incorporating it 
+into the talent lifecycle.
+Compensation Modeling
+Developing compensation packages, 
+aligning headcount to organizational 
+strategy, and modeling its impact to 
+expenses.
+Workforce Planning
+Develop headcount plans and project 
+associated costs to ensure that the 
+organization is adequately staffed to meet 
+organizational targets.
+Improves: SG&A Margin, Revenue Per 
+Employee
+Strategic Overlap: Talent Development, 
+Recruitment, Talent Retention
+Legend: 
+         Green Immediate need
+        
+          Yellow 2nd Phase
+         Red 3
+rd
+ or Future Phase
+Renewal/Churn Insights
+improve visibility into customer insights and 
+adoption. Dashboard/CRO Cockpit
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Recommended solutions to drive value for Zoom (2/2)
+Anaplan solutions support Zoom's strategic priorities
+Anaplan - Marketing
+Connect effective spending planning to 
+performance outcomes with accurate insights and 
+calculate predicted revenue models
+Pricing & Promotions
+Strategic price and promotion analysis to 
+anticipate change impact on supply and 
+demand with the objective of optimizing 
+revenue.
+Marketing Performance
+Marketing, demand, campaign, and program 
+planning to ensure that targets on objectives 
+and outcomes are met.
+Improves: SG&A Margin
+Strategic Overlap: Revenue, Strategy, Sales 
+Growth, Marketing, Collaboration, Platform
+Anaplan - Finance
+Transform FP&A so teams apply their business 
+acumen to orchestrating performance, not 
+spreadsheets
+Long Range Planning
+Three+ year financial plan that defines the 
+strategic direction of the organization.
+Revenue and OPEX Planning
+Develop strategy and plans through which 
+the organization will attain revenue/OPEX 
+targets.
+Income Statement Forecasting
+Combine actuals and forecasted 
+Revenue/Costs/OPEX (P&L) plans to 
+analyze against consensus plans.
+Improves: SG&A Margin, Revenue Per 
+Employee
+Strategic Overlap: Growth, New Markets, 
+Revenue
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Customer Success Stories 
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Customer success with Anaplan
+A brief snapshot of our experience of working with other leading organizations
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Thank you!

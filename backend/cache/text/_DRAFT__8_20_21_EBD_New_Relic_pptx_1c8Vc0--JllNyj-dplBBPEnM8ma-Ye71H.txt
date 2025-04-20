@@ -1,0 +1,473 @@
+[DRAFT] 8.20.21 EBD New Relic.pptx
+
+
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Executive Briefing Document
+August 17, 2021
+
+Agenda
+1.Account Overview
+2.Strategic Initiatives
+3.Current Anaplan Deployment
+4.Current Anaplan Opportunity
+5.Organizational Overview
+6.Executive Meeting Goals/Deliverables
+
+•
+Click to add Text
+3
+Account Overview
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Account Team
+AE: Jinah Conroy
+RVP: Connor O’Brien 
+BP: Saki Takasu
+SC: Greg Miller
+SPM Overlay: David Stern
+Company Snapshot
+•
+HQ: SF, CA
+•
+Founded: 2003
+•
+CEO: Bill Staples
+•
+NYSE: NEWR (IPO Dec 2014)
+•
+Employees: 2,200 (as of 3/2021)
+•
+Fiscal Year: April – March
+•
+Industry: Application Performance 
+Management
+SEC Filings
+•
+Annual Report : 2021 10K
+•
+Quarterly Report: 10Q (January 31, 2
+021)
+FY21 Financial Results (10K)
+•
+Market Cap: $4.47B (Aug 2021)
+•
+Total revenue: $667.6M (increase of 
+11% YoY)
+•
+Dollar-based net expansion rate: 
+decreased to 98.7% for the three-month 
+period ended March 31, 2021 from 
+115.7% for the same period in 2020
+•
+Customers took advantage of 
+the new pricing model, which 
+resulted in the choice of smaller 
+up-front commitments in favor 
+of spending on actual 
+consumption in excess of 
+committed amts
+Company Overview: NEWR delivers a comprehensive observability platform (“New 
+Relic One”) to help engineers and application owners track the performances of their 
+services
+Current Software
+•
+ERP: Netsuite
+•
+EDW: Snowflake
+•
+CRM: SFDC
+•
+Rev Req: Zuora
+•
+HCM: Workday
+•
+ATS: Jobvite
+•
+BI Tools: Tableau
+•
+ICM: Xactly
+•
+Sales Forecasting: Clari
+Re-launch of New Relic One Platform 
+(July 2020)
+•
+Reduced number of SKUs from 13 to a 
+cohesive platform supported by 3 products
+•
+Pricing model changed from subscription to 
+consumption-based pricing and adjusted GTM 
+to drive consumption
+Live Anaplan Use Case: FP&A
+•
+Rebuilt models 11/2020
+•
+Use Cases: 
+•
+Income Statement
+•
+OPEX Planning
+•
+CAPEX Planning
+•
+Long-range Planning
+•
+Balance Sheet/Cash Flow
+•
+Personnel Planning
+Anaplan Use Case: WFP
+NEWR had built WFP models for HR and TA but 
+didn’t go live
+Commercial 
+Relationship
+Detail
+Current ARR$275,220
+Opportunity 
+Pipeline
+$200,000
+Workspace452GB
+Workspace UtilizedGB
+Licenses
+10 MB, 102 Prof 
+Users
+COE?Yes
+Customer Since2015
+Renewal Date10/31/2022
+Contract Type
+Professional;             
+3-yr term
+Deployment 
+Partner
+Enquero, Twelve, 
+Slalom
+Account Overview
+Pipeline
+•
+Renewal: 10/31/2022
+•
+SPM:  Territory & Quota (Project 
+Maestro)
+•
+Target close date: mid Sept
+•
+Phase 1 Go-Live date: Jan 1
+•
+NNACV for both renewal and 
+SPM: ~$200K
+
+•
+Click to add Text
+5
+Strategic Initiatives
+
+New Relic
+Strategic Initiatives 
+New Relic 
+Needs
+Anaplan
+Solutions & Use Cases
+Anaplan
+Experience
+Return to market revenue growth rates
+(crowning metric in consumption business)
+Migrate 80% of business to the New Relic 
+One Consumption Model by end of fiscal 
+year
+Transforming business model from traditional ARR (large up-
+front commit) to Consumption Model
+“Driving reduction in COGS in order to return overall gross 
+margin to typical Enterprise SaaS rates” – CEO
+Create a growth engine that will be disciplined, systematic, 
+repeatable and scalable 
+Simplified pricing strategy: consumption measured by 
+number of users and data ingested
+•
+Charged upon usage in arrears (PAYG-”Pay as 
+You Go”) or
+•
+Commit to min spend over contracted period in 
+exchange for discounts (“Annual Pool of 
+Funds”)
+New Sales Comp Plan: sales reps paid as the customer 
+consumes more and not when deal is signed (complete pivot 
+for sales force)
+SPM:
+•
+Territory Planning
+•
+Quota Planning
+•
+Sales Capacity
+•
+Incentive Compensation
+•
+Sales Crediting
+•
+Target Setting
+•
+Pipeline Management
+•
+Pipeline Optimization
+•
+Revenue Attainment & 
+Insights
+Finance:
+•
+LRP & Strategic planning
+•
+OPEX, CAPEX, COGS
+•
+Headcount Planning
+•
+Revenue Forecasting
+•
+Balance Sheet & Cashflow
+Strategic Initiatives (10Q) & Anaplan POV
+
+New Relic
+Strategic Initiatives 
+New Relic 
+Needs
+Anaplan
+Solutions & Use Cases
+Anaplan
+Experience
+Grow the number of paying customers
+Methodically deliver unique value 
+Improve internal execution efficiency
+GTM: 3 approaches
+1.Sales-led: highest value contract customers
+2.Free tier: self-service; pay once hit certain threshold on 
+users or data
+3.Partner-led: biggest contributor is AWS
+“More efficient go to market model” – CEO
+Drive platform adoption and increased consumption => 
+investment into Customer Success to reduce churn and drive 
+higher long-term value
+Rationalize process into more central and connected systems 
+so that they don’t continue to be slowed down
+Creating process to help cross-functional execution across 
+GTM teams
+Kristy Friedrichs (COO) is responsible for “systemizing 
+internal execution across functions”
+HR:
+•
+Workforce planning
+•
+Talent Strategy
+•
+Recruiting Pipeline
+•
+Diversity & Inclusion
+•
+Facilities Optimization
+Marketing:
+•
+Marketing Spend
+•
+Marketing Performance
+Strategic Initiatives (10Q) & Anaplan POV
+
+•
+Click to add Text
+8
+Current Anaplan Deployment
+
+Netsuite
+SFDC
+Workday
+Manual 
+Imports
+NEW RELIC | EXISTING FINANCE 
+LANDSCAPE
+LRP
+OpEx
+Income 
+Statement
+Personnel
+Planning
+Balance 
+Sheet & 
+Cashflow
+CapEx
+Benefits of extending 
+the use of Anaplan 
+1)Integration with existing 
+operational planning 
+applications
+2)Utilize existing work 
+done – central 
+hierarchies, data 
+integrations, security...
+3)Reduce learning curve 
+with a single platform
+4)Lower total cost of 
+ownership (software, 
+training, support)
+Revenue 
+Planning
+Existing Today
+Future
+
+•
+Click to add Text
+10
+Current Anaplan Opportunity
+
+Account 
+Segmentation
+Territory 
+Planning
+Sales 
+Forecasting
+Target 
+Setting
+SNOWFLA
+KE
+SFDC
+Sales
+Capacity
+Dispute 
+Management
+Incentive
+Compensatio
+n
+Revenue 
+Attainment & 
+Insights
+NETSUITE
+LEGACY &
+MANUAL 
+IMPORTS
+NEW RELIC | SALES LANDSCAPE 
+POTENTIAL
+Account 
+Scoring
+Quota 
+Planning
+KEY TAKEAWAYS
+•
+Aligns strategy to financial targets to detailed 
+sales forecasting, including territory and 
+quota planning.
+•
+Provides visibility into sales plans and drives 
+accountability and ownership.
+•
+Supports "what-if" scenario modeling 
+allowing for analysis around various 
+possibilities and stretch goals.
+•
+Creates a single source of planning and 
+execution truth.
+•
+Generates real-time results so leaders may 
+evaluate changes quickly, and plan for 
+possibilities proactively.
+•
+Eliminates errors and lag time created 
+by transferring data between multiple 
+systems and spreadsheets.
+•
+Enables faster decision-making via a 
+singular platform for enterprise-wide 
+planning.
+•
+Phases out siloed and calendar-driven 
+planning—planning happens when it needs 
+to happen, based on the needs of the 
+business.
+WORKDAY
+Future
+Current Opportunity
+
+NEW RELIC PROJECT MAESTRO
+
+•
+Click to add Text
+13
+Org Chart
+
+CCh
+New Relic Org Chart- CXO
+Bill Staples
+CEO
+Wayne Purboo
+SVP Strategy
+Tracy Williams 
+CPO
+Mark Sachleben
+CFO
+Kristy Friedrichs
+COO
+Anita Lynch
+Chief Data Officer
+Manav Khurana
+Chief Growth Officer
+Seema Kumar
+CMO
+Rey Perez
+Chief Customer Officer
+(Florida)
+Steve Hurn
+Chief Sales Officer
+(London)
+ON BOARD
+Active Sponsor, participant or user of Anaplan 
+ENGAGED
+Knows Anaplan and supports/is interested
+NEUTRAL
+Knows Anaplan but opinion is unclear
+NEED TO CONNECT
+Connected or attempted to connect
+NEED TO INTRO
+Need to intro/connect to ELT
+Frank
+Ashley?
+Michael 
+Weiss?
+Michael 
+Weiss?
+Michael 
+Weiss?
+
+•
+Click to add Text
+15
+Executive Meeting 
+Goals/Deliverables
+
+Executive Meeting Messages / Goals
+Top 3 Messages to Convey
+1.Anaplan is best equipped to support New Relic’s GTM transition to a Consumption Model as evidence 
+by our notable consumption business customers such as Google Cloud, AWS, Snowflake, Mulesoft
+2.Anaplan can support New Relic’s strategic goal to return to market revenue growth rates by driving 
+business agility, resilience and productivity through Connected Planning 
+3.Anaplan can fundamentally support New Relic’s initiative to rationalize and unify applications across 
+its business because Anaplan is a platform and can be used by multiple LOBs
+Top 3 Goals
+4.Establish that Anaplan is the sole platform that meets Kristy’s strategic business goals, including 
+”systemizing internal execution across functions” 
+5.Gain Kristy’s confidence that using Anaplan for sales planning will help drive revenue growth, 
+increase sales productivity, and allow sellers to focus on securing reoccurring streams of consumption 
+6.Confirm that Kristy does not have any reservations about Anaplan and understand how best to 
+secure her support

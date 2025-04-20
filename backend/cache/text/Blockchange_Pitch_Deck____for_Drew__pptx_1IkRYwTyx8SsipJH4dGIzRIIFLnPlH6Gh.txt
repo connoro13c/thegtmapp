@@ -1,0 +1,351 @@
+Blockchange Pitch Deck - (for Drew).pptx
+
+
+
+© 2020 Blockchange, Inc. All Rights Reserved.
+The Digital Asset Investing Platform for 
+Professional Wealth Managers
+
+© 2020 Blockchange, Inc. All Rights Reserved.
+In the decade since the 2008 financial collapse, the world of finance has been transforming. Digital assets 
+have played an increasing role in this transformation and in the last two years have begun to enter the 
+mainstream. As digital assets gain traction, an increasing number of financial instruments are migrating to next 
+generation infrastructure, enabling historically unparalleled transparency and control.
+
+© 2020 Blockchange, Inc. All Rights Reserved.
+The Problem
+Registered Investment Advisors (RIAs) are tasked with the challenge to diversify 
+client portfolios in the face of extreme uncertainty during an unprecedented 
+time. 
+There is mounting pressure, from both clients and institutions, to invest in digital 
+assets but no solution that is intuitive, safe, and compliant.
+
+© 2020 Blockchange, Inc. All Rights Reserved.
+The Solution
+Blockchange
+
+© 2020 Blockchange, Inc. All Rights Reserved.
+First to market, intuitive product and currently live.
+Waiting on product captures.Waiting on product captures.
+Multi-client Portfolio 
+Management
+Strategy Library & 
+Backtesting Engine
+Integrated Reporting & 
+Performance Management
+Additional capabilities: automated rebalancing, cash management, firm strategy library, news 
+aggregation, sentiment & technical analysis, portfolio event & transaction tracking, fee aggregation, and 
+much more
+To view GIFs, use presentation mode.
+
+© 2020 Blockchange, Inc. All Rights Reserved.
+We provide tools for RIAs anywhere along 
+their crypto journey
+Bitcoin Exposure for Select Clients
+Firmwide Bitcoin Exposure
+Diversify a Firmwide Digital Asset Allocation
+Run an SMA
+
+System Architecture
+© 2020 Blockchange, Inc. All Rights Reserved.
+Highly secure, hybrid 
+serverless microservice 
+& container scaling.
+Compliant KYC & 
+onboarding for 1
+st
+ party 
+named client accounts
+Enterprise grade 
+identity and access 
+management
+Exchan
+ge
+
+© 2020 Blockchange, Inc. All Rights Reserved.
+Why We Focus 
+on Registered 
+Investment 
+Advisors
+Best Fit Firms
+Firms under 50 advisors on staff
+$250M - $10B AUM
+Located in the United States
+© 2020 Blockchange, Inc. All Rights Reserved.
+$67 billion spent annually on technology by investment 
+banking industry to manage $83.7 trillion. This means 
+acquiring wallet share rather than a new expense item.
+
+© 2020 Blockchange, Inc. All Rights Reserved.
+Highlights of our research
+0.112
+0.272
+0.292
+0.164
+0.108
+0.052
+Firm $AUM Distribu-
+tion
+Series1
+Less than 
+5
+Between 
+5 and 20
+Between 
+20 and 50
+Between 
+50 and 
+200
+Between 
+200 and 
+500
+Greater 
+than 500
+0%
+8%
+15%
+23%
+30%
+38%
+Number of Advisors at Firm
+0.2391
+0.7419
+Firm Interest in Crypto Assets
+I’m Already Offering Crypto ExposureYesNo
+Research sourced from an 
+independently conducted study of 250 
+RIAs, 50+ hours of 1:1 industry 
+interviews, and existing public data
+*Ovation Market Research
+
+© 2020 Blockchange, Inc. All Rights Reserved.
+The right product at the right time
+
+© 2020 Blockchange, Inc. All Rights Reserved.
+Current State
+Major Objectives
+●
+Firm, advisor & client 
+level dashboards
+●
+Multilevel reporting
+●
+Enhanced analytics & 
+fundamentals
+Major Objectives
+●
+Increase available 
+exchanges/custodians
+●
+Broaden supported asset 
+classes
+●
+Delivery through existing 
+distribution channels
+Major Objectives
+●
+Sync with system of 
+record
+●
+Sync with existing firm 
+reporting system
+●
+Bilateral communication
+Major Objectives
+●
+Services marketplace
+●
+Public API & data 
+products
+●
+Incorporate full retail 
+solution
+PHASE 01PHASE 02PHASE 03PHASE 04
+PIONEERCALIBRATEDIVERSIFYVERTICALIZE
+Platform 
+Development
+Broaden 
+Custody
+Integration 
+Development
+Ecosystem 
+Development
+Multi-client Accounts
+Portfolio Management
+Integrate Industry Toolkit
+CRM Compatibility
+New Asset Classes
+Additional Exchanges
+Open Retail Registration
+Decentralize Infrastructure
+How we plan to evolve our product
+
+© 2020 Blockchange, Inc. All Rights Reserved.
+APPENDIX
+
+© 2020 Blockchange, Inc. All Rights Reserved.
++8 engineers
++5 biz dev & ops
+*team of 20 total
+Strong team of leaders and industry experts
+Daniel Eyre
+Founder, CEO
+Daniel 
+Rothrock
+Founder, CTO
+Daniel 
+Tardent
+Head of Marketing
+Michael Mastey
+Head of Business Development
+Patrick 
+Carney
+Lead Architect
+Jana Yap
+General Counsel
+Caroline Eyre
+Founder, CFO
+© 2020 Blockchange, Inc. All Rights Reserved.
+Griffin Knight
+Head of Product
+
+© 2020 Blockchange, Inc. All Rights Reserved.
+Currently Supported Assets
+Bitcoin (BTC)
+Ether (ETH)
+Litecoin (LTC)
+Bitcoin Cash (BCH)
+Zcash (ZEC)
+0x (ZRX)
+Amp (AMP)
+Basic Attention (BAT)
+Balancer (BAL)
+Chainlink (LINK)
+Compound (COMP)
+Curve (CRV)
+Aave (AAVE)
+Dai (DAI)
+Decentraland (MANA)
+Kyber Network (KNC)
+Maker (MKR)
+Orchid (OXT)
+Pax Gold (PAXG)
+Ren (REN)
+Storj (STORJ) 
+Synthetix (SNX)
+Uma (UMA)
+Uniswap (UNI) 
+Yearn Finance (YFI)
+
+© 2020 Blockchange, Inc. All Rights Reserved.
+RIA Market Readiness for Cryptocurrency and Digital Assets
+Study Conducted by Ovation Market Research
+
+© 2020 Blockchange, Inc. All Rights Reserved.
+Insights from our longform 1:1 interviews
+of advisor’s clients are interested in crypto assets
+is the recommended average exposure to crypto assets
+see crypto becoming a part of standard diversified 
+portfolio
+are familiar with standout performance of asset class
+think crypto created opportunity to differentiate firm 
+offerings
+
+© 2020 Blockchange, Inc. All Rights Reserved.
+Research Study Overview
+n = 250
+0.432
+0.476
+0.092
+Advisory Firm Research Audience
+Advisor / PlannerManagement / Decision-makerAnalyst
+Less 2 years2 - 5 years 5 - 10 years More than 10 
+years 
+0%
+13%
+25%
+38%
+50%
+Audience Experience Distribution
+
+© 2020 Blockchange, Inc. All Rights Reserved.
+Firm Overview
+0.112
+0.272
+0.292
+0.164
+0.108
+0.052
+Firm $AUM
+Series1
+Less than 5Between 5 
+and 20
+Between 
+20 and 50
+Between 
+50 and 200
+Between 
+200 and 
+500
+Greater 
+than 500
+0%
+8%
+15%
+23%
+30%
+38%
+Firm Advisor Count
+
+© 2020 Blockchange, Inc. All Rights Reserved.
+Firm & Client Interest
+Less than 10%10% to 25%25% to 50%Greater than 
+50%
+0%
+13%
+25%
+38%
+50%
+63%
+Percentage of Firm Clients Interested in 
+Crypto
+0.019
+0.2391
+0.7419
+Firm Interest in Crypto Assets
+I’m Already Offering Crypto ExposureYesNo
+
+© 2020 Blockchange, Inc. All Rights Reserved.
+Firm & Client Interest Continued
+
+© 2020 Blockchange, Inc. All Rights Reserved.
+Firm Perceptions
+0.924
+0.076
+Percentage of Ad-
+visors that Believe  
+Crypto's Addition to 
+the CFA Exam Ac-
+celerate Adoption
+YesNo
+0.916
+0.084
+Percentage of Firms 
+that Believe Crypto 
+Has Created an 
+Opportunity to Dif-
+ferentiate Offering
+YesNo
+
+© 2020 Blockchange, Inc. All Rights Reserved.
+What Firms are Looking For
+0.876
+0.124
+Percentage of Firms 
+Open to Specialized 
+Crypto Custodians
+YesNo
+
+© 2020 Blockchange, Inc. All Rights Reserved.
+Crypto Asset Investment Solution Most 
+Interesting to Firms

@@ -1,0 +1,309 @@
+BAE - Team Meeting 06.29.pptx
+
+
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+BAE Weekly 
+Team Meeting
+6.29.21
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+AGENDA
+•
+Performance
+•
+Attainment
+•
+Pipeline Coverage
+•
+PipeGen
+•
+PlanIQ Push
+•
+July Wine
+•
+CEO Suite
+•
+In-person meetings
+•
+Neesha on Pipeline Process
+•
+Round Table: Tomina @ Wilbur Ellis
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Pipeline & 
+Coverage
+•
+Targets
+•
+FY22 BAE Target: $4,553M
+•
+FY22 Closed / Won YTD: $772k
+•
+FY22 Attainment: 16.95%
+•
+Q2 Target: $1,127k
+•
+Q2 Closed / Won QTD: $6k
+•
+Q2 Attainment: 1%
+•
+Q2 Forecast: $392k – $538k
+•
+Won 6k in May
+•
+Forecasting 132k in June
+•
+Forecasting 253k – 400 in July
+•
+Q2 Forecasted Attainment: 34.6% – 47.7%
+•
+PipeGen Target per Week: 
+•
+AE: ~100k 
+•
+POD: ~581k 
+•
+PipeGen / Week: $241k
+•
+Pipeline Generated Weeks 6-8: $0k, $200k, & 
+$525k
+•
+Pipeline Target: $7,553k
+•
+Total QTD Pipeline Generated: $2,480k
+•
+% of Goal: 32.8% 
+•
+PipeGen / AE / Wk: $51k
+•
+WoW Δ: +11k
+Q2 FY22 Quarterly Performance
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+PipeGen + PLAN IQ
+•
+West Finance to Sales Executive Discussion (Next Team Call)
+•
+July 22
+nd
+ Wine Event – Outreach Link
+•
+PlanIQ – 
+•
+Current Customers
+•
+Net New Prospects
+•
+MPM
+•
+MPM Supply Chain
+•
+MPM Sales
+•
+MPM Finance
+•
+CEO Suite – 
+•
+Databricks July 9
+th
+•
+???
+•
+What else is working?
+•
+PipeGen Activity Needed for next week:
+•
+Outreach / Direct Email on PlanIQ, Wine Event, 
+•
+Direct Email for CEO Suite
+•
+If not using outreach, include me on emails 
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Sales KPIs Going forward and Opportunity Management Expectations Going Forward
+•
+AE Pipeline Target
+•
+100k weekly / 430k monthly
+•
+AE Pipeline Coverage Target
+•
+2x CQ
+•
+3x CQ+1
+•
+4x CQ+2
+•
+In the absence of PipeGen, activity needs to be shown:
+•
+Outreach: use sequences, use email tracking, etc.
+•
+Copy RVP on email
+•
+AE Attainment Taget
+•
+100% + strong linearity.
+•
+M3 only deals is unacceptable
+•
+Updated opportunities as they progress. 
+•
+When something happens, reflect it on the 
+opportunity.
+•
+MEDDPICC included
+•
+End of week isn’t enough anymore.
+•
+Once an SQL (Stage 0) created, 48 hours to update
+•
+Indicate date, time, and attendees and known 
+pain
+•
+No more Stage 1 opps in your pipeline >30 days
+Sales KPIsOpportunity Management Expectations
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+How to Slack!
+•
+Keyboard Short Cuts: https://slack.com/help/articles/201374536-Slack-keyboard-shortcuts
+•
+Cmnd + K = Quick Switch
+•
+Cmnd + Shift + K = Browse DMs
+•
+Cmnd + U = Upload document
+•
+/ = kick off a command; Remind me!  
+•
+Naming conventions [bae-accounts-XXX], [bae-core], [bae], etc.
+•
+Alerts / Notifications
+•
+Folders / Sections
+•
+General Ettiquette: https://slack.com/blog/collaboration/etiquette-tips-in-slack
+•
+THREADS
+•
+Responses 
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Next Steps Standardization
+1.From newest to oldest next step
+2.Always start with the date of the next step
+3.Next step description should be sharp and to the point
+4.Clearly identified owners for every next step
+5.Next steps provided every week for every in-quarter opportunity
+Next steps provide qualitative deal insights
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Commit > Most Likely > Best Case 
+Probability of winning deal in current period
+Best 
+Case
+Most 
+Likely
+Commit
+“Upside”
+LowHigh
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Each represents a different probability of winning
+TypeDefinition
+Probability of winning 
+deal in current period
+Commit
+Opportunities that you are confident to close this quarter
+This is a number that you rarely miss
+High
+Most Likely
+Open opportunities that require realistic and achievable 
+actions to close this quarter
+Closest to the pin
+Moderate
+Best Case
+Deals where some additional effort is required to close 
+this quarter
+A number rarely exceeded
+Low
+“Upside”
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+What’s on your mind?
+•
+What are our gaps?
+•
+What’s working?
+•
+What’s not working?
+•
+What can I do to make your life better?

@@ -1,0 +1,288 @@
+FY22 Q3 AE QBR Torres (1).pptx
+
+
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Q3 QBR
+Stephen Torres
+August 2021
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Q2 Look-back
+Results ($M)% of total
+May$00%
+June$00%
+July$20K10%
+Total$20K10%
+Linearity
+Pipe Gen
+Stage 1+Stage 2+
+Total Created$
+% of Plan%%
+•
+Lyft Renewal
+•
+Pipe Creation through customer meetings
+Key Wins
+Highlights on Best Practices or Lessons Learned
+•
+1. QSR with Okta exposes real partnership 
+•
+2. LOB discussions at Square
+•
+3
+•
+4
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Q3 Overview
+Results ($M)
+Commit 
+Coverage
+August$$X%
+September$300K120%
+October$150K160%
+Total$450K160%
+L
+i
+n
+e
+a
+r
+i
+t
+y
+Q
+3
+ 
+P
+i
+p
+e
+l
+i
+n
+e
+$$% of Pipe
+Commit$300KX%
+Upside$150KX%
+Pipeline$0X%
+Total$450KX%
+1.Square SCM opp
+2.TIBCO PI expansion
+T
+a
+r
+g
+e
+t
+e
+d
+ 
+W
+i
+n
+s
+•
+1 – Identifying partner for Square
+•
+2 – Airbnb exec connections
+•
+3 – TIBCO exec connections
+•
+4
+Help Needed
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Vision, Strategy or Objective
+
+Scalability is the main business issue as they still leverage spreadsheets
+
+Starting with Supply Management and moving into Demand
+
+Covid hit their POS business hard as small business went under. Big focus in helping start get small economy back
+Top Deal #1 – Square Supply Chain 
+PowerBudgetTimingValue
+•
+Head of Supply (Mike Tabakin)
+•
+Who are the key influencers
+•
+Mike Tabakin
+•
+Sabarish Nair (Business 
+Systems)
+•
+Carian O’relly (Business 
+Systems)
+•
+Has budget been identified? Yes
+•
+Do we know the budget process, 
+including PO process? Yes
+•
+What’s the compelling event? System 
+stood up by q1 Fy23
+•
+Is there a desired project start? Oct
+•
+Is there a desired go-live date? 2022
+•
+What other programs are driving 
+compelling events? N/A
+•
+What’s our Value Hypothesis? TBD
+•
+Have we done a Value Insights? NO
+•
+What is the monthly cost of 
+waiting/delays? TBD
+Compelling EventsRisksMitigating StrategiesExec Alignment
+•
+Extension of Timing, but these could 
+be competing priorities that we need 
+to manage (ie SAP program) – N/A
+•
+Risks are on every deal, but identify 
+the high priority ones that will slow 
+down or kill it – We are at the right 
+level and have the “village” of Square 
+involved but Budget and a “build vs 
+Buy” attitude
+•
+SME in Evan Quasney
+•
+You can have multiple in an account, 
+just have justification and identify 
+them in the opportunity – TBD – 
+Evan?
+Village Next StepsTiming
+•
+Prepping for demo on Aug 11
+th
+. Aug
+NNACV
+$300k
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+What Now?
+KEEP
+•
+Regular cadence with my 7 accounts
+•
+Alignment with my BP 
+•
+Following the data to find additional opportunities
+STOP
+•
+Thinking pipeline will come to me
+START
+•
+Getting higher in the organizations
+•
+Connecting Anaplan execs to customer execs
+•
+Close plans now for this FY
+•
+Finding quick opps for this year to close
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Path to FY22 Plan
+Results ($M)Attainment
+H1$190K24%
+Projected Q3$400K75%
+Projected Q4$300K110%
+Total$890K110%
+B
+o
+o
+k
+i
+n
+g
+s
+ 
+P
+l
+a
+n
+P
+i
+p
+e
+ 
+G
+e
+n
+Results ($M)Attainment
+H1$$X%
+Projected Q3$$X%
+Projected Q4$$X%
+Total$$X%
+Action PlanImpactNext Steps
+1. Exec meeting at 
+Airbnb 
+$$Get CFO of Airbnb to meet with Anaplan new CFO
+2. Partner Meeting 
+re: Square opp
+$$
+Work with Graham, Arun and Evan to discuss 
+partner introduction
+3. Exec meeting at 
+Okta
+$$CFO TO CFO meeting scheduled fore Q3
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Key H2 Deals
+RegionAccount
+Value 
+($)
+Forecast 
+Category
+StagePartnerClose Date Use Case / Notes
+West Square Inc. $300KCommit2N/ASept 30thSupply Chain
+WestSquare Inc. $125KCommit2N/AJan 31stCost Allocations
+West Okta$150KUpside2TwelveJan 31stMRM
+WestTIBCO$150KUpside2N/AOct 30thPredictive Insights

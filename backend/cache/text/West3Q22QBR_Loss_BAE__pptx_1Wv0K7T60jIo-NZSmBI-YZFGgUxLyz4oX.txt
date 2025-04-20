@@ -1,0 +1,67 @@
+West3Q22QBR_Loss(BAE).pptx
+
+
+
+High Level Deal Information
+Projected ACV    $382
+FunctionSales
+Use CaseQuota & Capacity
+CompetitorAdaptive
+Industry        High Tech
+Region       BAE
+Partner         Spaulding Ridge
+Lost Quarter   Q2FY22
+Top 3 Reasons We Lost
+1.Timing (not enough of it)
+2.Too slow to sell value
+3.Immature buyers
+“Timing: temporarily staying with internal solution 
+since Twilio is concerned about using a new tool 
+for their annual planning immediately after going 
+live. 
+They would like to revisit in January so that they 
+can use Anaplan for their next planning cycle”
+Company Overview
+Twilio is an American cloud communications platform as a service company based in San Francisco, California. Twilio allows software developers to programmatically make and receive phone calls, 
+send and receive text messages, and perform other communication functions using its web service APIs.
+Executive Summary 
+Twilio originally went with Adaptive Planning for Quota Planning and Capacity Planning last year. Adaptive failed and forced Twilio back into Google Sheets. They wanted to re-evaluate options for 
+tooling and put Sr. Manager, Megan Lu, in charge of the evaluation. 
+The primary drivers behind their evaluation was Twilio had been struggling keeping up with their scale and increase GTM operational complexity due to organic growth and M&A activity. Additionally, 
+GTM leadership felt they were “leaving money on the table” due to poor territory & quota planning as well as capacity planning and talent acquisition. 
+The primary features Twilio claimed to be assessing for:
+-
+Best of breed solution
+-
+We need to have the right plan and team in place to accomplish our goals
+-
+A system that allows us consistency and transparency to work from a single source of truth
+-
+Allows for flexibility
+-
+Drives increase productivity through operational efficiency and a better book of busines
+Tactics We Leveraged
+•
+Value Insights
+•
+Exec Engagement
+•
+Aggressive discounting, SOW creation, and invest of ProServ hours
+Loss Review Template
+Internal Use Only
+Purchase Decision ProcessValue Proposition Alignment 
+•Empowered low-level manager (COO pushed to VP of 
+GTM who pushed to VP of Biz Systems who pushed to 
+Sr Manager of Quota Planning)
+•Ran us head-to-head vs Adaptive (existing solution)
+•Boiled down to timing and cost
+•Increased Rev (30M – 60M)
+•Reduced Costs (4.4M – 6.4M)
+•Increased Productivity (3.6M)
+Economic FactorsSolution/Product Fit
+•Micro: “Too expensive” / “Doesn’t Scale”
+•Macro: None
+•Were told we were the better solution
+•Couldn’t get over cost / level of effort to own
+•Couldn’t get over not enough time to effectively change 
+mange

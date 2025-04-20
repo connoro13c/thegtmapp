@@ -1,0 +1,787 @@
+
+
+Gartner, Inc. | G00739810Page 1 of 21
+Market Guide for Cloud, Extended Planning and
+Analysis Solutions
+Published 29 July 2021 - ID G00739810 - 29 min read
+By Analyst(s): Robert Anderson, Greg Leiter
+Initiatives:Finance Applications; Supply Chain Planning
+Cloud xP&A heralds a transformation of financial planning and
+analysis via a single platform with the integration and services
+needed for finance and business teams to collaborate. Application
+leaders should use this market guide to match their organization’s
+requirements to vendor capabilities.
+Overview
+Key Findings
+Recommendations
+Application leaders responsible for finance applications should:
+Extended planning and analysis (xP&A) is the next generation extension of financial
+planning and analysis (FP&A) solutions and is a vendor response to the challenges
+faced by enterprises seeking to exploit new digital business models and navigate
+current and future economic uncertainties.
+■
+Although best-of-breed (BoB) operational planning solutions, such as workforce and
+sales and operations planning (S&OP) will remain popular, FP&A will begin to
+incorporate more of these functional capabilities as it evolves into xP&A (a platform-
+centric approach capable of supporting and integrating both financial and
+operational planning).
+■
+xP&A solutions are immature and, as a result, may be lacking in functional depth
+and breadth and fairly costly compared to FP&A solutions.
+■
+Meet with business stakeholders to determine if xP&A can streamline and enhance
+enterprise planning by analyzing current enterprise planning strategies and
+processes.
+■
+
+Gartner, Inc. | G00739810Page 2 of 21
+Strategic Planning Assumption
+Through 2024, 30% of FP&A implementations will be extended to support operational
+finance processes with 50% requiring a substantial xP&A roadmap from the vendor.
+Market Definition
+xP&A is the evolution of planning, combining financial and operational planning on a
+single composable platform. It “extends” traditional FP&A solutions focused solely on
+finance into other enterprise planning domains such as workforce, sales, operations and
+marketing. These early maturity market solutions offer reference architectures, proprietary
+data models, configurable applications and other capabilities enabling the integration and
+alignment of financial and operational plans. xP&A seeks to provide better informed and
+timely decision making to meet tactical and strategic objectives.
+Market Description
+Modern initiatives seeking to establish digital sales channels and business models amid
+business disruption must be supported by collaborative and agile planning and
+performance management processes, so feedback can be received, analyzed and acted
+on sooner. Surmounting these challenges will require organizations to plan in a more
+consistent, cross-functionally aligned, collaborative, agile and accurate manner as they
+seek to pivot quickly and gain competitive advantage.
+xP&A is a vendor response to these evolving enterprise planning needs. They help
+organizations exploit the challenges faced when introducing new digital business models
+and navigating economic uncertainties (see Figure 1). Solutions introduced in the market
+are capable of merging together financial and operational planning processes, so
+management improves decisions and delivers better results across the enterprise.
+Identify vendor solutions, approaches and capabilities by utilizing this market guide
+to understand the level of xP&A support provided.
+■
+Obtain funding and approval for integrating and consolidating planning tools using
+xP&A by creating a business case and strategic roadmap for enterprise planning that
+targets applicable improvement opportunities, based on level of importance, risk and
+ROI.
+■
+
+Gartner, Inc. | G00739810Page 3 of 21
+Figure 1: Before and After xP&A
+Currently, the primary customers for xP&A solutions are those having already deployed a
+cloud FP&A solution wishing to extend their solution to gain additional value. FP&A
+solutions have traditionally been used by the finance organization alone, disconnected
+and unintegrated with operational metrics. That limitation often inhibited and impeded
+finance, operations and human capital management leaders from taking a broader
+approach to enterprise performance management. While still in the early maturity stage
+(see  Hype Cycle for CRM Sales Technology, 2021), the cloud xP&A market is evolving
+quickly to overcome and address these challenges. Customers that have deployed FP&A
+solutions are seeking and demanding ways to use their platform investment to extend and
+align planning more broadly beyond finance to the broader enterprise.
+Examples of xP&A vendor developments going deeper in scope that “extend” the ability of
+FP&A to connect to, integrate with, and align with operational plans include:
+Improved planning platform architecture to support increased composability via
+intelligent, guided plan modelling tools and performance improvements capable of
+handling larger data volumes and granularity required for both financial and
+operational planning applications.
+■
+Artificial intelligence/machine learning (AI/ML) capable of quickly identifying
+significant patterns and anomalies across large integrated finance and operational
+datasets.
+■
+
+Gartner, Inc. | G00739810Page 4 of 21
+Although BoB operational planning solutions will remain popular, FP&A will begin to
+incorporate some of their capabilities as it evolves into xP&A — a platform-centric
+approach capable of supporting and integrating both financial and operational planning.
+By extending FP&A and other planning applications beyond the finance domain to other
+key business stakeholders, xP&A can offer decision makers a holistic view of their
+planning processes, results and progress toward fulfilling a strategy and meeting an
+organization’s goals.
+Market Direction
+Gartner’s 2021 Extended Planning and Maturity Analysis Research Circle survey found
+that 96% agreed that a majority of enterprises will adopt a planning strategy to
+integrate/align FP&A with one or more operational planning areas by 2024. The majority
+of respondents were either team members or held primary responsibility for operational or
+financial planning. As the velocity of digital business — and the amount of associated
+data — increases, Gartner expects the xP&A approach to gain momentum, thus increasing
+its importance to all C-level executives. Gartner estimates that, through 2024, 30% of FP&A
+implementations will be extended to support operational finance processes, with 50%
+requiring a substantial xP&A roadmap from the vendor. Gartner has seen a rapid increase
+in the number of client organizations seeking to integrate and link financial and
+operational planning processes wherever possible.
+Despite this, most functions in the year ahead will still independently select their own BoB
+planning solutions or use Microsoft Excel spreadsheets, often resulting in a siloed
+landscape without consistency of purpose. While many attempts have been made over
+the years to successfully integrate FP&A with operational planning solutions in order to
+deliver rich financial line of sight, we estimate that less than 5% have proven successful.
+Packaged solutions addressing various aspects of operational planning on the same
+platform as FP&A.
+■
+A range of “starter kits” that assist customers in rapidly constructing their own
+platform-resident operational planning models and applications.
+■
+Enhanced integrated financial planning (IFP) going beyond basic connectivity to,
+and integration of, data from third-party data sources by adding new capabilities
+including modern APIs.
+■
+
+Gartner, Inc. | G00739810Page 5 of 21
+As a new approach to enterprise planning, the xP&A market is likely to become more
+competitive as the cumulative technological impact of integrated financial management
+applications supporting companywide planning processes become increasingly evident.
+As it unfolds, some vendors may be challenged to make R&D investments that will be
+necessary to expand their footprint. Additionally, it is likely that new entrants may, at some
+future point, join the xP&A market from outside the world of finance.
+Through 2021, we expect cloud xP&A to be enabled by both BOB planning and ERP suite
+vendors delivering various degrees of integrated planning capability. Vendors supporting
+xP&A are expected to increasingly incorporate more specialized planning functionalities
+and use cases that go beyond support for IFP alone (see Magic Quadrant for Cloud
+Financial Planning and Analysis Solutions) as currently found in cloud FP&A solutions.
+Examples include operational workforce planning such as headcount management,
+budget and forecasting, and sales planning and forecasting related to territory, quota and
+incentive management. Some vendors have already or plan to introduce support for sales
+and operations planning (S&OP) to help continuously align supply chain and financial
+plans. In the HCM area, new investments may be considered to support both strategic as
+well as operational workforce planning (see Workforce Planning — How to Use
+Technology to Support Planning Processes).
+Market Analysis
+There is no “one size fits all” approach to enterprise planning that suits every
+organization. xP&A is only the latest approach for achieving enterprise planning.
+Integrated business planning (IBP) provides a more mature, product-centric, operational
+approach for consolidating operational planning processes and aligning them with
+enterprise strategy. As such, IBP focuses on supply, demand, product and financial data.
+Planning solutions don’t have to reside on the same platform and, given the supply chain
+nature of the approach, may also span multiple enterprises. As a finance approach, xP&A
+attempts to deliver those benefits by consolidating enterprise planning applications on a
+single vendor platform, wherever possible, integrating with third-party solutions only as
+required (see Innovation Insight for Extended Planning and Analysis [xP&A]).
+Both IBP and xP&A approaches should be considered as two sides of the same coin
+addressing a common objective — the continuous alignment of enterprise financial and
+operational plans. xP&A is able to coexist along with IBP and vice versa, and they can be
+mutually supportive of one another. xP&A simply adds another tool to the enterprise
+planning “toolbox.” Those serving the xP&A market will find their most receptive audience
+among organizations using cloud FP&A and those that are prioritizing business partnering
+and enterprise planning as part of digital transformation efforts.
+
+Gartner, Inc. | G00739810Page 6 of 21
+As this solution market evolves, it’s important to be mindful that operational planning
+solutions offered by FP&A vendors may not be as robust as BoB planning application
+counterparts. Strict evaluations should be performed to ascertain the depth and breadth
+of current xP&A capabilities and vendor plans, with particular attention paid to areas such
+as data governance and master data management.
+Gartner expects xP&A platforms and architecture to continue to evolve, creating new
+enterprise performance management opportunities where none previously existed. As an
+early maturity market with development planned over the next decade, cloud xP&A is
+evolving across three solution categories with FP&A vendors offering the following
+attributes:
+Due to the current state of market maturity, vendor offerings and emphasis may fall into
+one or the other of these three solution categories depending on the operational planning
+solution under consideration. As IFP is enhanced as part of xP&A it will act as a
+transitional “bridge” enabling users to further pivot to this new and more comprehensive
+financial approach to enterprise planning.
+For this Market Guide, vendor operational planning offerings have been segmented across
+HR/workforce, sales, S&OP, marketing and IT planning disciplines. Some vendors may
+offer capabilities in one or more, but not all operational planning areas, and the breadth
+and depth of functionality associated with each may also vary across the competitive
+marketplace. Finally, vendors are also segmented by primary regional coverage and
+targeted size of enterprise.
+Fully packaged and marketed “turn key” operational planning applications, sharing
+the same platform and common data model enabling both the consolidation and
+integration of the solutions.
+■
+“Starter kits” that consist of templates, configurators/accelerators, data models,
+connectors, business logic, prescriptive reference architectures, etc., capable of
+improving the ability to construct and quickly deploy operational planning
+applications on a shared platform.
+■
+Enhanced IFP capabilities that deliver quicker and easier integration with third-party
+data sources via APIs and connections along with improvements in data
+governance, process orchestration, rules and mapping techniques. These techniques
+may include master data management and security that support the ability to pull
+larger, more granular datasets into the platform for modelling and planning purposes
+associated with xP&A.
+■
+
+Gartner, Inc. | G00739810Page 7 of 21
+Representative Vendors
+The vendors listed in this Market Guide do not imply an exhaustive list. This section is
+intended to provide more understanding of the market and its offerings.
+Market Introduction
+The market for financial close solutions comprises many providers. The representative
+vendors of the market are shown in Table 1 which indicates the capabilities described in
+the Market Description and Analysis sections above.
+Table 1: Representative Vendors in Cloud Extended Planning and Analysis (xP&A)
+(Enlarged table in Appendix)
+
+Gartner, Inc. | G00739810Page 8 of 21
+Vendor Profiles
+Anaplan
+Anaplan introduced its xP&A capability, Connected Planning, back in 2017. Typical
+customers are large and global enterprises with complex, cross-functional planning needs,
+with requirements for aligning financial and operational plans to accelerate revenue
+growth, expand margins, optimize assets and manage risk. Organizations venture into
+Anaplan’s ecosystem through corporate and business unit FP&A as well as demand,
+capacity, S&OP, commercial revenue and workforce planning, or sales performance
+management. Anaplan supports both IFP and IBP. Customers using Anaplan to integrate
+and align financial and operational plans include Hitachi Automotive Systems, Del Monte
+and Zillow Group.
+Anaplan’s solutions are powered by a unified collaborative platform enabling plans to be
+built, modeled and shared using financial and operational data. Its solutions bring
+together people, data and plans, while integrating with other enterprise systems, enabling
+collaborative planning with Anaplan as a single source of truth. Prepackaged planning
+solutions are available for finance, sales, marketing, supply chain, workforce and IT.
+Anaplan continues to invest in predictive and intelligent forecasting, data integration and
+extensibility, collaboration and user experience (UX), and multiple public cloud offerings.
+Future capabilities include increased data and process orchestration, advanced predictive
+analytics, business process automation, increased solution composability, and other
+autonomous capabilities.
+Board
+Board’s xP&A solution enables enterprises to align financial and operational planning as
+well as analytics in a single holistic process. It includes long-term strategic planning and
+scenario management, detailed operational budgets and forecasts, S&OP, financial
+planning and reporting as well as a collaborative approval process. Customers using
+Board to integrate and align financial and operational plans include Coca-Cola European
+Partners, Toyota Motor Europe and Puma.
+
+Gartner, Inc. | G00739810Page 9 of 21
+Board Integrated Business Planning (IBP) extends FP&A principles to operational
+departments, bringing together cross functional data to generate collaborative sales,
+demand, procurement and HR planning with a common goal. It works with other Board
+solutions consisting of accelerators for areas such as sales performance management,
+workforce planning and analytics, FP&A and digital boardroom. It’s integration with other
+Board Solutions is intended to create a unified planning and analytics process that breaks
+down functional silos and enforces consensus-based decision making.
+Recent Board investments include the addition of next generation unbalanced hierarchies,
+50+ prebuilt connectors, a fully renewed set of REST APIs and a central hub for user
+security and authorizations. Future initiatives will include new proprietary AI/ML
+algorithms, AI-suggested data modeling, unstructured data analytics and investments in
+distributed architecture.
+CALUMO
+CALUMO’s (XP&A) applications provide reporting, budgeting, forecasting and planning
+capabilities for enterprises across both financial and operational data. xP&A
+implementations solve problems and unique customer challenges using an agile project
+framework that results in user-driven plans and models. CALUMO ships with models for
+human capital management, operating expenditure (OPEX) and capital expenditure
+(CAPEX) planning.
+Reports, dashboards and planning templates can be authored in Microsoft Excel and
+published to the web for simple distribution and interactive consumption. Users can also
+embed connected reports in Word and PowerPoint documents allowing rapid creation of
+board packs and presentations. Customers using CALUMO to integrate and align financial
+and operational plans include Arts Centre Melbourne, Acumentis and Mainbrace
+Constructions, all based in Australia.
+CALUMO has prebuilt connectors for several popular on-premises and cloud-based
+operational systems and ERP’s. These connectors have been designed specifically for
+xP&A workloads and the consolidation of disparate data sources. The authoring and
+modelling functionality, combined with the connector suite, and agile delivery framework
+means implementation is completed rapidly.
+CALUMO has experience delivering XP&A solutions to clients across all verticals from the
+mid-market to large enterprise and government. CALUMO recently announced that it was
+acquired by insightsoftware in July 2021.
+
+Gartner, Inc. | G00739810Page 10 of 21
+IBM
+IBM Planning Analytics with Watson is an AI-powered solution that streamlines and
+integrates financial and operational planning. Integrated planning capabilities enable
+business units to participate in a continuous, automated, measured and real-time adjusted
+planning process. Customers using IBM’s solution to integrate and align financial and
+operational plans include Ancestry, L’Oréal and Uber.
+IBM Planning Analytics with Watson extends planning and analysis capabilities from
+finance to sales, supply chain, HR, etc., integrating plans and data and creating a holistic
+view of an organization’s performance. It uses IBM TM1, an in-memory database and
+calculation engine capable of multidimensional analysis — across large, historical and
+future oriented datasets — and real-time data access across multiple data sources.
+Planning Analytics provides both a web-based and Excel interface, offering users the
+flexibility to access and use a full set of capabilities in the user interface (UI) of their
+choice. Future plans include:
+Jedox
+Jedox is a unified platform supporting xP&A that includes integrated financial planning,
+Jedox Sales Planning and Jedox HR Planning as packaged solutions deployed as SaaS
+or private cloud. Jedox is used by upper mid-market to large businesses and enterprises in
+the manufacturing, life science, retail, food and beverage, consumer goods, media and
+services industries. Customers across North America, EMEA and Asia/Pacific using Jedox
+to integrate and align financial and operational plans include Siemens Healthineers
+(Varian), Comcast and ABB.
+Predictive forecasting enhancements that put the power of algorithmic forecasting
+in the hands of line of business (LOB) users.
+■
+New accelerators that further extend planning and analysis capabilities across the
+organization.
+■
+Integration with IBM’s CPLEX optimization engine so organizations can factor in
+competing goals and priorities and explore various scenarios to arrive at the best
+possible outcomes.
+■
+
+Gartner, Inc. | G00739810Page 11 of 21
+Jedox’s xP&A offering consists of a platform which is architected to enable non-technical
+users to quickly build modular solutions for integrated planning. It offers prepackaged
+planning solutions for finance, sales planning and workforce planning. Template-based
+starter-kits for S&OP are provided by Jedox partners on the Jedox Marketplace.
+Recent Jedox investments include reporting and ecosystem connectivity, adding mobile-
+friendly dashboarding and self-service reporting, a native live data connection for
+Salesforce and other third-party business intelligence (BI) and analytics tools. Jedox also
+added models to its AIssisted Planning engine for automated and accurate predictions,
+simulations and data preparation based on ML algorithms. Future plans include
+improving platform scalability and flexibility as well as expanding its portfolio of xP&A
+and operational planning solutions.
+insightsoftware
+insightsoftware offers two planning products that align and incorporate financial and
+operational reporting: Bizview focusing on the needs of the midmarket, and Tidemark for
+enterprise customers with complex modeling needs. Customers using these solutions to
+integrate and align financial and operational plans include the Swedish baker Almondy,
+London Internet Exchange (LINX) and Dalakraft.
+insightsoftware offers a single platform that supports operations and finance for
+accurate, integrated plans. Both products provide integrated reporting, dashboards and
+analytics and enable users to plan at a granular level across demand plans, CAPEX plans,
+labor plans, etc., without losing level of detail. Both also enable reference planning
+numbers from any model as an input to another model (e.g., to integrate operational
+planning data into financial plans).
+Future plans include enabling more self-service functionality via templates that are
+capable of supporting broader operational use cases, and that can be easily adapted by
+users as required. Additionally it is looking to enhance data visualizations in order to
+support business leaders across the organization.
+
+Gartner, Inc. | G00739810Page 12 of 21
+OneStream
+OneStream’s Intelligent Finance Platform unifies financial and operational planning,
+financial close and consolidation, and reporting and analytics in a single solution —
+enabling perspectives on both finance and operations from the same data. The unified
+platform (and data model) includes a number of key capabilities designed to support
+xP&A, including support for planning at a granular, business-driver level on dynamic data
+with multidimensional analysis and automatic alignment to financials. OneStream
+customers using the solution to integrate and align financial and operational plans
+include Guardian Industries, KLM Group and Capital One.
+OneStream’s platform provides support for financial close and consolidation, planning,
+budgeting, forecasting, reporting and analytics, financial signaling and financial data
+quality. The platform can be extended with over 50 other supported solutions from the
+OneStream MarketPlace that include people planning, sales planning, capital planning,
+cash planning and predictive analytics.
+OneStream recently added high performance aggregations to speed planning on large
+volumes of data and plans to add several new capabilities to further support xP&A
+including improved ad hoc modeling capabilities and a guided ML experience. This will
+give finance and LOB teams the power to leverage ML models without the support of data
+scientists.
+Oracle
+Oracle Fusion Cloud Enterprise Performance Management’s connected planning
+capabilities address xP&A via packaged applications, configurable solutions and solution
+templates. Packaged applications include Sales Planning and Strategic Workforce
+Planning. As a configurable solution, IT Financial Management is available free of cost.
+Less prescriptive solution templates are offered for Integrated Business Planning and
+Execution (IBPX) and marketing campaign planning. Customers using Oracle Enterprise
+Performance Management (Oracle EPM) to integrate and align financial and operational
+plans include InvenSense, Pacific Life and Reckitt.
+Oracle’s solutions deliver prebuilt data, master data and process/workflow connections
+into Oracle Fusion Cloud Applications suites and support open standards and API’s for
+integration with other systems. Packaged and configurable applications include:
+Application model artifacts
+■
+Predefined support for operational use cases and planning scenarios
+■
+
+Gartner, Inc. | G00739810Page 13 of 21
+Future investments include strengthening embedded AI, ML and predictive analytics, and
+deeper prebuilt data, master data and workflow connections into operational sales,
+marketing, HR and supply chain systems for easy integration with Oracle Fusion Cloud
+Applications and other solutions. Support for industry-specific operational planning use
+cases and more platform capabilities to support operational planning requirements will
+also be added.
+Planful
+Planful’s Continuous Planning platform supports financial and operational planning and
+helps compress planning cycle times in a connected and collaborative manner to
+underpin xP&A. The platform supports supply chain teams, operational finance and sales
+through a calculation engine, flexible dimensionality, excel formulas and native financial
+intelligence — enabling users to plan at any level of granularity. Customers using Planful
+to integrate and align financial and operational plans include Five Guys, Lube-Tech and
+Stoli Group USA.
+In 2020, Planful launched expanded Workforce Planning capabilities to enhance decision
+making and collaboration between Finance and HR teams. Real-time employee data can
+flow across the platform and the solution creates out-of-the-box calculations for standard
+compensation costs for HR users while mapping back to the general ledger (GL) line item
+for financial transparency.
+Planful recently added a new visual experience where users can interact with employee-
+level expense information when planning their future workforce, making it easier to update
+information and modify compensation expense assumptions. Future platform
+investments include rolling out more complementary operational templates and
+capabilities to help customers analyze large data volumes faster and deliver cross-
+functional insight into plans and continued flexibility in the UI to support these additional
+use cases.
+Prebuilt integration with Oracle Fusion Cloud Applications
+■
+Open interfaces for integration
+■
+Prebuilt reports, analytics and dashboards
+■
+
+Gartner, Inc. | G00739810Page 14 of 21
+SAP
+As the analytics and planning layer of SAP’s Business Technology Platform, SAP
+Analytics Cloud (SAC) combines BI, predictive analytics and enterprise planning in one
+app. SAC’s analytical capabilities are embedded within SAP Cloud enterprise apps such as
+SAP S/4HANA Cloud and SAP SuccessFactors Human Experience Management Suite.
+From a planning perspective, SAC is integrated with the aforementioned as well as SAP
+Integrated Business Planning (SAP IBP) for Supply Chain, enabling financial and
+operational data to be shared in one platform. Connections capabilities allow access to
+third- party sources and systems. Customers using SAC to integrate and align financial
+and operational plans include Kärcher, National Vision and Aço Cearense Group.
+xP&A is addressed by offering customers a real-time, seamless view of financial and
+operational data across other applications. SAC also provides “Business Content”; best-
+practice, packaged planning content and scenarios by LOB and industries.
+SAP recently introduced a new SAC model type that links planning models within SAC to
+applications across SAP for better integration and performance. This enables continued
+integration and connectivity with other parts of SAP’s suite and business applications,
+allowing further operational planning within SAC and strengthening its ability to offer
+strategic, operational and financial planning together in a single solution.
+Solver
+Solver offers integration that brings in historical data from source systems to be used in
+the planning process. Once configured, the Solver Data Warehouse and input form/report
+designer supports planning models across any financial and operational area. Customers
+using Solver to integrate and align financial and operational plans include Distribution
+Management, Ducks Unlimited and Prattco.
+Solver consists of planning/workflow, reporting/process management, dashboarding and
+data warehouse modules supporting up to 100 data dimensions. Its single cloud
+database approach and menu-driven setup enables companies to decide how broad or
+detailed their planning model should be. Using the workflow engine, the FP&A team can
+deploy top-down and/or bottom-up processes combining operational planning input with
+summary data posted automatically to GL accounts in the corporate financial
+templates/model.
+
+Gartner, Inc. | G00739810Page 15 of 21
+Solver continues to invest in a template and process-driven approach where customers
+can combine financial and operational planning needs with rapid time to value
+deployments, using predefined templates and operational integrations built in partnership
+with ERP vendors. It is also extending the planning process backward into strategy to
+drive the overall direction of the planning process, and to ensure that users’ planning input
+is aligned with corporate strategy.
+Unit4
+Unit4 FP&A focuses on people and project-centric industries, namely professional
+services, public sector, not-for-profit organizations and higher education. While Unit4 FP&A
+can be utilized stand-alone, it supports native integration with Unit4 ERP, its web-based,
+cloud-native ERP, with predefined planning applications for workforce planning and people
+analytics, as well as IFRS 16 and financial and statutory consolidation. Customers using
+Unit4 FP&A to integrate and align financial and operation planning include Migros Aare,
+WSP and University of Applied Sciences Vienna.
+Prebuilt planning applications include an ERP and FP&A component, reducing time for
+users to get up and running. One standard interface allows users to switch between ERP
+and FP&A. The system is also adaptable for those requiring a tailored solution. Integration
+between FP&A and ERP, including HCM and Professional Services Automation, includes
+user and permissions synchronization, master data and push back of final planning data
+from FP&A to the ERP system.
+Future xP&A investments include embedding objects from FP&A directly into ERP. Planned
+at the industry model level are predefined interfaces in both ERP and FP&A that represent
+financial, people and project planning, to ensure continuous alignment between finance
+and operational plans.
+Vena
+Vena Complete Planning is a cloud-native platform leveraging an Excel interface to plan
+and streamline finance-led and extended planning processes. Its platform consists of
+three configurations: Finance-Led Planning, Extended Planning and Beyond Planning.
+Vena integrates to cloud, on-premises and other external databases or flat files using API
+connectors, Microsoft Power Automate and extract transform and load (ETL) integration.
+Customers using Vena’s solution to integrate and align financial and operational plans
+include Metro Supply Chain Group, Coca-Cola Consolidated and Meats by Linz.
+
+Gartner, Inc. | G00739810Page 16 of 21
+Vena connects people, departments, processes and systems into a central database so
+organizations can plan across the business using unified data. Businesses get at-a-glance
+visuals of key financial and operational company metrics to drive strategic decision
+making and uncover hidden dependencies between xP&A use cases including workforce
+planning, sales planning, capex, marketing, among others.
+Recent investments include a new modeler interface and optimized UX providing
+standardized dimensions that support multicube, embedded Microsoft Power BI,
+integration APIs and a Microsoft 365 UX. Vena is moving beyond just financial planning
+by delivering additional preconfigured, prescriptive xP&A applications for business, built
+on a foundation consisting of templates, data models, connectors and business logic
+customized to the specific needs and industry requirements of companies.
+Workday
+Workday Adaptive Planning is a scalable, cloud enterprise planning platform for
+enterprisewide planning supporting financial, workforce, sales, demand and project
+planning. Workday Adaptive Planning can also be used in non-Workday environments.
+Demand and operational planning templates are available on the Workday Marketplace
+and directly through partners. Some example customers using Workday Adaptive
+Planning to integrate and align financial and operational planning include Rubrik, Jackson
+Family Wines and Airbus.
+Workday Adaptive Planning supports driver-based planning with unlimited scenario
+modeling and ML-powered forecasting. Its federated, composable planning architecture
+enables each function to have its own planning environment while preserving the ability to
+align individual plans up to a holistic plan. Workday’s high-volume data hub (purchased
+separately), can be leveraged to create data-infused models supporting both strategic and
+detailed operational plans. Workday approaches xP&A through an industry lens, working
+with software partners to deliver faster time to value. Prescriptive financial and
+operational planning solutions are available for software and technology, non-profit,
+healthcare, professional and business services, manufacturing, retail, financial services
+and life sciences.
+Workday’s future investments in xP&A include additional applications for specific
+industries and extending market leadership in workforce planning with further depth in
+skills-based planning.
+
+Gartner, Inc. | G00739810Page 17 of 21
+Wolters Kluwer (CCH Tagetik)
+Wolters Kluwer provides CCH Tagetik Budgeting, Planning and Forecasting which can be
+configured and extended for financial and operational planning. Powered by the Analytic
+Information Hub, the CCH Tagetik solution connects financial, operational and external
+data with all plans combining summary level financial planning with granular operational
+planning. The data hub supports unlimited dimensions, measures and complex
+calculations. CCH Tagetik Predictive Intelligence, an out-of-the box predictive planning
+solution interconnects data and identifies trends, ranks key business drivers, and provides
+the best predictive plan. Customers using CCH Tagetik for financial and operational
+planning include Members 1st Federal Credit Union and Discovery Education.
+CCH Tagetik Smart NOW cloud planning apps can be implemented as prepackaged stand-
+alone, turnkey or solution accelerators with prebuilt templates, calculations and reports.
+Current solutions include workforce planning, production cost planning and control
+(including sales planning for manufacturing), capital planning, cash flow planning and
+risk adjusted planning.
+Investment plans include more use cases, prepackaged accelerators and predictive
+analytics for xP&A. Wolters Kluwer recently acquired Vanguard Software, a provider of
+predictive planning software for production planning, supply and demand planning, sales
+and operations planning and integrated business planning, further increasing its xP&A
+footprint in the North American market.
+Market Recommendations
+The xP&A market represents an emerging finance-centric approach to enterprise planning
+extending beyond current cloud FP&A solutions. It is most suitable to organizations
+currently using or evaluating cloud FP&A solutions that seek to extend planning
+capabilities enterprisewide, including adding or integrating with various types and levels
+of operational planning requirements.
+As an FP&A application leader responsible for considering xP&A, you should:
+Determine your organization’s readiness for xP&A by analyzing current planning
+processes and maturity levels. A mature, well governed FP&A process that currently
+incorporates IFP will be a prerequisite for successful xP&A.
+■
+
+Gartner, Inc. | G00739810Page 18 of 21
+While xP&A is compelling and attractive, at the current stage of market maturity other
+approaches and technologies may deliver better results and should also be considered
+and evaluated. xP&A is an “up and coming” approach for enterprise planning to be
+weighed on its merits alongside those that already currently exist.
+Perform a cost-benefit analysis focusing special attention on “touchpoints” between
+operational and financial planning processes where financial line of sight, shared
+data, increased collaboration and alignment with key performance indicators (KPIs)
+could improve planning accuracy using examples stated earlier.
+■
+Review the impact that adoption will have on change management as technology by
+itself often cannot overcome cultural barriers to planning collaboration that need to
+be addressed (see 5 “Must Have” Finance Skills Required for Post-COVID-19
+Business Success). Meet with all associated stakeholders to build consensus and
+ascertain if the organization has the fortitude to embrace a finance approach to
+enterprise planning.
+■
+Assemble a business case and strategic roadmap that ensures all planning model
+characteristics are accounted for and seek executive approval. Improvement
+opportunities should be based on levels of importance, risk and potential ROI versus
+the current state.
+■
+Evaluate vendor offerings, associated costs, and key elements such as data
+governance, and master data management with vigilance due to the emerging and
+immature nature of this market. Use this Market Guide to identify worthy candidates
+and as a primer to holding vendor discussions about capabilities and future plans.
+■
+
+Gartner, Inc. | G00739810Page 19 of 21
+Acronym Key and Glossary Terms
+AIartificial intelligence
+BIbusiness intelligence
+BoBbest of breed
+FP&Afinancial planning and analysis
+GLgeneral ledger
+IBPintegrated business planning
+IFPintegrated financial planning
+LOBline of business
+MLmachine learning
+S&OPsales and operations planning
+xP&Aextended planning and analysis
+Evidence
+Gartner’s Extended Planning & Maturity Analysis Survey, 2021 was conducted online from
+17 March through 8 April 2021, to set the stage for the evolution of Gartner’s research into
+enterprisewide planning capabilities.
+In total, 82 ITL leaders responded to the survey. Respondents include 24 members from
+Gartner’s ITL Research Circle, a Gartner managed panel and 58 ITL leaders from an
+external sample.
+The survey was developed collaboratively by a team of Gartner analysts and was
+reviewed, tested and administered by Gartner’s Research Data Analytics team.
+Note 1
+Representative Vendor Selection
+This Market Guide includes representative vendors in the FP&A market that seek to
+leverage xP&A by extending their offerings to integrate and align financial and operational
+plans.
+
+Gartner, Inc. | G00739810Page 20 of 21
+Vendors vary by solution depth, breadth, geographical focus and the sizes of enterprise
+targeted. i
+Gartner identified vendors discussed during inquiry calls with Gartner clients seeking and
+discussing xP&A capabilities. Those vendors were invited to participate in this research.
+The list of vendors in this report is not exhaustive.
+Note 2
+Gartner’s Initial Market Coverage
+This Market Guide provides Gartner’s initial coverage of the xP&A market and focuses on
+the market definition, rationale for the market and market dynamics, in addition to
+representative vendors.
+Recommended by the Authors
+Some documents may not be available as part of your current Gartner subscription.
+Innovation Insight for Extended Planning and Analysis (xP&A)
+Shift to a Composable Architecture to Transform Your Financial Management Systems
+How Should I Select and Implement a Financial Planning and Analysis Solution?
+Magic Quadrant for Cloud Financial Planning and Analysis Solutions
+Critical Capabilities for Cloud Financial Planning and Analysis Solutions
+Workforce Planning — How to Use Technology to Support Planning Processes
+
+Gartner, Inc. | G00739810Page 21 of 21
+© 2021 Gartner, Inc. and/or its affiliates. All rights reserved. Gartner is a registered trademark of
+Gartner, Inc. and its affiliates. This publication may not be reproduced or distributed in any form
+without Gartner's prior written permission. It consists of the opinions of Gartner's research
+organization, which should not be construed as statements of fact. While the information contained in
+this publication has been obtained from sources believed to be reliable, Gartner disclaims all warranties
+as to the accuracy, completeness or adequacy of such information. Although Gartner research may
+address legal and financial issues, Gartner does not provide legal or investment advice and its research
+should not be construed or used as such. Your access and use of this publication are governed by
+Gartner’s Usage Policy. Gartner prides itself on its reputation for independence and objectivity. Its
+research is produced independently by its research organization without input or influence from any
+third party. For further information, see "Guiding Principles on Independence and Objectivity."
+
+Gartner, Inc. | G00739810Page 1A of 2A
+Table 1: Representative Vendors in Cloud Extended Planning and Analysis (xP&A)
+VendorWorkforce
+Planning
+Sales
+Performance
+Planning
+Integrated
+Business/
+S&OP Planning
+Marketing
+Planning
+IT
+Planning
+Primary
+Regions
+Serviced
+Primary
+Targeted
+Enterprise
+Size
+ AnaplanxP&A
+1
+xP&A
+1
+xP&A
+1
+xP&A
+1
+xP&A
+1
+NAM, EMEA,
+APAC
+L,G
+ BoardxP&A
+2
+xP&A
+2
+xP&A
+2
+IFPIFPEMEA, NAM,
+APAC
+UM,L,G
+ CALUMOxP&A
+2
+IFPIFPIFPIFPANZ, NAMLM, UM
+ JedoxxP&A
+1
+xP&A
+1
+xP&A
+2
+IFPIFPEMEA, NAM,
+APAC
+UM,L
+ IBMxP&A
+2
+xP&A
+2
+xP&A
+2
+xP&A
+2
+xP&A
+2
+NAM, EMEA,
+APAC, LATAM
+L, G
+ insightsoftwareIFPIFPIFPIFPIFPNAM, EMEALM, UM, L, G
+ OneStreamxP&A
+1
+xP&A
+1
+IFPIFPIFPNAM, EMEAUM,L,G
+ OraclexP&A
+1
+xP&A
+1
+xP&A
+2
+xP&A
+2
+xP&A
+1
+NAM, EMEA,
+APAC, LATAM
+UM,L,G
+ PlanfulxP&A
+1
+xP&A
+2
+xP&A
+2
+IFPIFPNAM, EMEALM, UM, L
+ SAPxP&A
+2
+IFPxP&A
+1
+IFPIFPEMEA, NAM,L, G
+
+Gartner, Inc. | G00739810Page 2A of 2A
+Source: Gartner (July 2021)
+APAC, LATAM
+ SolverIFPIFPIFPIFPIFPNAM, EMEALM
+ Unit4xP&A
+2
+xP&A
+2
+IFPIFPIFPEMEALM,UM
+ VenaxP&A
+1
+xP&A
+1
+IFPIFPIFPNAMUM,L,G
+ Wolters Kluwer
+(CCH Tagetik)
+xP&A
+1
+xP&A
+1
+xP&A
+1
+IFPIFPEMEA, NAM,
+APAC
+UM,L,G
+ WorkdayxP&A
+1
+xP&A
+2
+xP&A
+2
+IFPIFPNAM, EMEA,
+APAC
+UM,L,G
+Footnote
+1-Fully packaged and marketed xP&A “turn key” operational planning applications
+sharing the same platform and common data model enabling both the consolidation and integration of the solutions. Depth and breadth of operational
+planning applications vary by vendor.
+2-xP&A “Starter Kits”
+that consist of templates, configurators/accelerators, data models, connectors, business logic, prescriptive reference architectures, etc., to help construct
+and deploy operational planning applications on a shared platform.
+IFP= Enhanced IFP capabilities
+that deliver quicker and easier integration with third-party data sources via APIs and connections along with improvements in data governance, process
+orchestration, rules and mapping techniques and security that support the ability to pull larger, more granular datasets into the platform for modelling and
+planning purposes associated with xP&A.
+Primary Regions Serviced: NAM= North America, EMEA=Europe and Middle Eastern Area, APAC= Asia/Pacific, LATAM=Latin America
+Primary Target Enterprise Size: LM= Lower-Midmarket ($50-250M), UM=Upper-Midmarket ($250M-1B), L=Large Enterprise ($1-5B), G=Global Enterprise
+($5B+).

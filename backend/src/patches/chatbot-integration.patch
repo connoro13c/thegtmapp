@@ -1,0 +1,149 @@
+# ChatbotService Integration Patch
+
+This document outlines the changes needed to integrate the enhanced GoogleDriveService with ChatbotService.
+
+## 1. Modify loadDocumentsFromDrive method
+
+Enhance the `loadDocumentsFromDrive` method to use document chunking for each file:
+
+```typescript
+// After this line in loadDocumentsFromDrive:              
+this.folderContents.set(file.name, content);
+
+// Add these lines to process chunks:
+try {
+  // Process document chunks in background without waiting
+  googleDriveService.chunkDocument(file.id, file.name, content, file.mimeType)
+    .catch(chunkError => {
+      console.error(`Error chunking document ${file.name}:`, chunkError);
+    });
+} catch (chunkError) {
+  console.error(`Error initiating chunking for ${file.name}:`, chunkError); 
+}
+```
+
+## 2. Modify processMessage method
+
+Update the `processMessage` method to use semantic search when available:
+
+```typescript
+// Replace this block in processMessage:
+const queryTerms = message.toLowerCase()
+  .replace(/[.,?!;:()\[\]{}'-]/g, '') // Remove punctuation
+  .split(/\s+/)
+  .filter(term => term.length > 2); // Filter short words
+
+console.log('Search terms:', queryTerms);
+
+const relevantDocs: Map<string, number> = new Map();
+
+// With this enhanced block:
+let relevantDocs: Map<string, number> = new Map();
+let embeddingSearchSuccessful = false;
+
+// Try semantic search first if available
+try {
+  if (typeof googleDriveService.findRelevantChunks === 'function') {
+    console.log('Using embedding-based semantic search');
+    const topChunks = await googleDriveService.findRelevantChunks(message, 8);
+    
+    if (topChunks && topChunks.length > 0) {
+      embeddingSearchSuccessful = true;
+      console.log(`Found ${topChunks.length} relevant chunks via embeddings`);
+      
+      // Group by file and assign relevance scores
+      topChunks.forEach((chunk, index) => {
+        // Higher rank = higher score, with exponential decay
+        const score = 100 * Math.pow(0.9, index);
+        const currentScore = relevantDocs.get(chunk.fileName) || 0;
+        relevantDocs.set(chunk.fileName, currentScore + score);
+      });
+    }
+  }
+} catch (embeddingError) {
+  console.error('Error using embedding-based search:', embeddingError);
+}
+
+// Fallback to keyword search if embedding search failed
+if (!embeddingSearchSuccessful) {
+  console.log('Falling back to keyword-based search');
+  
+  const queryTerms = message.toLowerCase()
+    .replace(/[.,?!;:()\[\]{}'-]/g, '') // Remove punctuation
+    .split(/\s+/)
+    .filter(term => term.length > 2); // Filter short words
+  
+  console.log('Search terms:', queryTerms);
+```
+
+## 3. Update the meetingPrompt for improved document handling
+
+Enhance the system prompt for meeting/presentation content to handle chunked documents better:
+
+```typescript
+// Update the meeting/presentation system prompt instruction:
+if (isMeetingOrPresentationRequest) {
+  systemPrompt = `You are a helpful GTM (Go-to-Market) assistant that provides detailed information about meetings and presentations.
+
+You have access to the following document chunks from meeting notes and presentation slides. EXTRACT and PRESENT the specific information the user is asking about:
+
+${documentsContext}
+
+CRITICAL INSTRUCTIONS:
+1. NEVER say "I don't have that information" unless you've thoroughly checked all content.
+2. For specific questions about data points, metrics, or business information, DIRECTLY provide those specific details.
+3. Pay special attention to slide content that contains:
+   - Numbers, percentages, and metrics
+   - Dates and timelines
+   - Company and product names
+   - Action items and decisions
+4. Structure your response with clear headings and bullet points that match how they appear in slides.
+5. ALWAYS include exact figures and data mentioned - be precise with numbers.
+6. CITE the source slide or meeting for all information.
+7. When dealing with follow-up questions, focus on providing MORE SPECIFIC DETAILS.
+8. DO NOT apologize or explain why you don't have data - focus entirely on what you can extract.
+`;
+```
+
+## 4. Add caching of query responses
+
+Implement a simple cache to remember recent user queries and responses:
+
+```typescript
+// Add to the ChatbotService class definition:
+private responseCache: Map<string, {response: string, timestamp: Date}> = new Map();
+
+// Then add this to processMessage method before API call:
+// Check cache for recent identical queries
+const cacheKey = message.toLowerCase().trim();
+const cachedResponse = this.responseCache.get(cacheKey);
+if (cachedResponse) {
+  const cacheAge = new Date().getTime() - cachedResponse.timestamp.getTime();
+  // Use cache if less than 5 minutes old
+  if (cacheAge < 5 * 60 * 1000) {
+    console.log('Using cached response for identical query');
+    return cachedResponse.response;
+  }
+}
+
+// Store response in cache after getting API response:
+this.responseCache.set(cacheKey, {
+  response: botResponse,
+  timestamp: new Date()
+});
+```
+
+## Integration Steps
+
+1. Make a backup of the original files
+2. Apply these changes one section at a time
+3. Test after each change to ensure functionality is maintained
+4. Verify that embedding-based search is working by checking the logs
+5. Test that document chunking is working by checking the logs
+
+## Testing
+
+1. Test basic queries to verify functionality
+2. Test queries about meetings and presentations to verify improved extraction
+3. Test follow-up questions to see if specific details are provided
+4. Check logs to confirm semantic search is being used when available

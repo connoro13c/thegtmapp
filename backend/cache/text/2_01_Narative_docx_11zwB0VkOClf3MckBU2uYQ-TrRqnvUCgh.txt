@@ -1,0 +1,62 @@
+IDOL Work Flow 2.01
+
+
+
+System Maintenance
+
+Org unit in Luma is index in I-Time.  If employees transfer between org units then maintenance is needed in Luma and other state systems like IPOPS. 
+
+Every org unit has a cost center overhead (CCO) project code.  This project is used to collect costs that benefit all grants operated within the org unit.  Leave is the only payroll cost charged to CCO.   Common operating costs charged to CCO are utilities, rent, building maintenance, landscaping, and general office supplies.  A new CCO project code must be assigned for any new org units.  
+
+I-Time
+
+IDOL employees complete time sheets in I-Time each week.
+
+IDOL creates one or more project codes for each grant to capture the level of detail necessary for grant reporting.  
+
+Every week employees report time worked based on project codes.  
+
+Leave is charged to the “cost center overhead” project code assigned to the employee’s org unit.  
+
+Supervisors review and approve employee timesheets each week.
+
+IDOL pulls down a copy of I-Time payroll and accounting staff run edits to identify issues.
+
+Employees are contacted to correct issues if found.
+
+Employee corrects time sheet and supervisor approves the revised timesheet.
+
+IDOL certifies the week and the week is closed for further revisions.
+
+IDOL pulls down a copy of weekly certified time records.  
+
+Records include:
+
+ Payroll Number, Week Ending Date, Org Unit, SSN, Last Name, First Initial, Middle Initial, Project Code, Time Type Code, and Hours (worked or leave taken).  
+
+Values associated with payroll that come from other sources include:
+
+PCN, Class Code, and Pay Rate.
+
+IDOL currently receives this information from the state employee information system (EIS) which feeds into our internal HR system.  The information is necessary for IDOL to compute wages and to support payroll reconciliations.
+
+
+
+Rate of pay and hours reported by project code are used to calculate total wages.
+
+Payroll records combined with EIS values are uploaded to an IDOL SQL database.  
+
+ Reconcile I-Time Records 
+
+IDOL reconciles the department copy of I-Time payroll after the 2 week pay period is processed and journalized in Luma. 
+
+Payroll records in Luma are reconciled to IDOL’s Copy of payroll. 
+
+Reconciliation is for hours and dollars by project code at the org unit level. 
+
+If variances are found then the reconciliation must drill down to identify issues.
+
+All correction must be made to IDOL’s copy of payroll records in SQL.    
+
+Common variances are for corrections made at the state level when processing payroll or for pay rate changes that were not current when IDOL computed employee wages.  
+

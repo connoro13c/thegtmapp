@@ -1,0 +1,61 @@
+
+
+Process
+Simplified New Hire Requisition Creation 
+(Proposed)
+Req shell is created 
+by finance
+ - Date of Hire
+ - Known Person
+- Comp?
+Req populated with 
+Sales Ops details
+ - POD
+ - Commission Plan 
+Type
+- Adjusted Sales 
+Date?
+Req approved for 
+hiring by finance
+- Boolean
+Req populared with 
+HR details
+- Cost Center
+- Workday Job Title
+- Job Family Group
+- Job Family
+- Job Level 
+- Time Type
+- Worker Type
+- Worker Sub Type
+- Template Job
+- External Job Name
+- Hiring Manager
+- Recruiter
+- Override Bonus 
+Plan?
+- Override Equity 
+Range?
+- Company
+- Country
+- Booloean
+ 
+Reconciliation 
+Dashboard 
+(PBF/GH)
+Reconciliation 
+Dashboard 
+(PBF/SPM/GH)
+Req in GH
+Employee in 
+WD
+PBF
+(Finance)
+SPM
+(Sales Ops)
+Headcount Planning
+(HR / Recruiting)
+Legend
+Reconciliation 
+Dashboard 
+(SPM/GH)

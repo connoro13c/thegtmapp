@@ -1,0 +1,153 @@
+
+> backend@0.1.0 start
+> node dist/server.js
+
+Service account email: gtm-chat-bot@abiding-aspect-451716-j5.iam.gserviceaccount.com
+Private key length: 1704
+Private key first 50 chars: -----BEGIN PRIVATE KEY-----
+MIIEvAIBADANBgkqhkiG9w...
+Google Drive service initialized successfully
+OpenAI client initialized for embeddings
+Loading documents from Google Drive folder: 1i234XCd8QrZ4MyJuBJJkMxbukR3HHhQ4
+Listing files from folder: 1i234XCd8QrZ4MyJuBJJkMxbukR3HHhQ4
+Server running on port 3002
+Error initializing office-text-extractor: Error [ERR_REQUIRE_ESM]: require() of ES Module /Users/ConnorOBrien/Desktop/thegtmapp/backend/node_modules/office-text-extractor/build/index.js from /Users/ConnorOBrien/Desktop/thegtmapp/backend/dist/services/googleDriveService.js not supported.
+Instead change the require of index.js in /Users/ConnorOBrien/Desktop/thegtmapp/backend/dist/services/googleDriveService.js to a dynamic import() which is available in all CommonJS modules.
+    at /Users/ConnorOBrien/Desktop/thegtmapp/backend/dist/services/googleDriveService.js:54:85
+    at async initializeTextExtractor (/Users/ConnorOBrien/Desktop/thegtmapp/backend/dist/services/googleDriveService.js:54:37) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Found 100 files in the folder
+Found 100 files in the Google Drive folder
+Processing file: BAE - Team Meeting 4.27.21.pptx (1OMys83UJ0Yc8M8YCSfGsm6plpP9IjdYQ) - application/vnd.openxmlformats-officedocument.presentationml.presentation
+Getting content for file: 1OMys83UJ0Yc8M8YCSfGsm6plpP9IjdYQ
+File name: BAE - Team Meeting 4.27.21.pptx, MIME type: application/vnd.openxmlformats-officedocument.presentationml.presentation
+Processing PowerPoint file: BAE - Team Meeting 4.27.21.pptx
+Starting PowerPoint text extraction for: BAE - Team Meeting 4.27.21.pptx
+Error initializing office-text-extractor: Error [ERR_REQUIRE_ESM]: require() of ES Module /Users/ConnorOBrien/Desktop/thegtmapp/backend/node_modules/office-text-extractor/build/index.js from /Users/ConnorOBrien/Desktop/thegtmapp/backend/dist/services/googleDriveService.js not supported.
+Instead change the require of index.js in /Users/ConnorOBrien/Desktop/thegtmapp/backend/dist/services/googleDriveService.js to a dynamic import() which is available in all CommonJS modules.
+    at /Users/ConnorOBrien/Desktop/thegtmapp/backend/dist/services/googleDriveService.js:54:85
+    at async initializeTextExtractor (/Users/ConnorOBrien/Desktop/thegtmapp/backend/dist/services/googleDriveService.js:54:37)
+    at async GoogleDriveService.extractTextFromPowerPoint (/Users/ConnorOBrien/Desktop/thegtmapp/backend/dist/services/googleDriveService.js:405:9)
+    at async GoogleDriveService.getFileContent (/Users/ConnorOBrien/Desktop/thegtmapp/backend/dist/services/googleDriveService.js:330:44)
+    at async ChatbotService.loadDocumentsFromDrive (/Users/ConnorOBrien/Desktop/thegtmapp/backend/dist/services/chatbotService.js:37:37) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Saved PowerPoint file to temporary path: /var/folders/5q/03s0pdjd0kz58p30p9x56d4w0000gp/T/1OMys83UJ0Yc8M8YCSfGsm6plpP9IjdYQ-1745163396592.pptx
+Read 6329668 bytes from temporary PowerPoint file
+Successfully extracted 10135 characters of text from PowerPoint
+Successfully loaded content from BAE - Team Meeting 4.27.21.pptx: 10205 characters
+Chunking document BAE - Team Meeting 4.27.21.pptx (1OMys83UJ0Yc8M8YCSfGsm6plpP9IjdYQ)
+Skipping folder: RVP Playbook
+Processing file: SaaS_Sales_Scorecard_-_from_Matt_Wolach.xlsx (1BE_hQA5R-rnZ9yaXTjFiXLC-MBLqFzzq) - application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+Getting content for file: 1BE_hQA5R-rnZ9yaXTjFiXLC-MBLqFzzq
+File name: SaaS_Sales_Scorecard_-_from_Matt_Wolach.xlsx, MIME type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+Processing Word document: SaaS_Sales_Scorecard_-_from_Matt_Wolach.xlsx
+Saved Word document to temporary path: /var/folders/5q/03s0pdjd0kz58p30p9x56d4w0000gp/T/1BE_hQA5R-rnZ9yaXTjFiXLC-MBLqFzzq-1745163459725.docx
+Error extracting Word document content: TypeError: Cannot read properties of undefined (reading 'children')
+    at Boolean.collapseAlternateContent (/Users/ConnorOBrien/Desktop/thegtmapp/backend/node_modules/mammoth/lib/docx/office-xml-reader.js:65:45)
+    at Array.map (<anonymous>)
+    at collapseAlternateContent (/Users/ConnorOBrien/Desktop/thegtmapp/backend/node_modules/mammoth/lib/docx/office-xml-reader.js:67:53)
+    at /Users/ConnorOBrien/Desktop/thegtmapp/backend/node_modules/mammoth/lib/docx/office-xml-reader.js:41:20
+    at process.processImmediate (node:internal/timers:478:21)
+From previous event:
+    at read (/Users/ConnorOBrien/Desktop/thegtmapp/backend/node_modules/mammoth/lib/docx/office-xml-reader.js:40:10)
+Successfully retrieved content for file: 1BE_hQA5R-rnZ9yaXTjFiXLC-MBLqFzzq
+Document analysis: 79/500 problematic characters (15.80%)
+Successfully loaded content from SaaS_Sales_Scorecard_-_from_Matt_Wolach.xlsx: 62698 characters
+Chunking document SaaS_Sales_Scorecard_-_from_Matt_Wolach.xlsx (1BE_hQA5R-rnZ9yaXTjFiXLC-MBLqFzzq)
+Processing file: Connor O'Brien Resume (Figma).docx (1h17KL9czwFTjA1LpNwH9Q7xcIcFNZQDo) - application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Getting content for file: 1h17KL9czwFTjA1LpNwH9Q7xcIcFNZQDo
+File name: Connor O'Brien Resume (Figma).docx, MIME type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Processing Word document: Connor O'Brien Resume (Figma).docx
+Created 2 chunks for SaaS_Sales_Scorecard_-_from_Matt_Wolach.xlsx
+Saved Word document to temporary path: /var/folders/5q/03s0pdjd0kz58p30p9x56d4w0000gp/T/1h17KL9czwFTjA1LpNwH9Q7xcIcFNZQDo-1745163461489.docx
+Successfully extracted 9748 characters from Word document using mammoth
+Document analysis: 0/500 problematic characters (0.00%)
+Successfully loaded content from Connor O'Brien Resume (Figma).docx: 8680 characters
+Chunking document Connor O'Brien Resume (Figma).docx (1h17KL9czwFTjA1LpNwH9Q7xcIcFNZQDo)
+Processing file: NEW.docx (1ddtP_rkM8NcVZBhuiQIErOILvorjd5gu) - application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Getting content for file: 1ddtP_rkM8NcVZBhuiQIErOILvorjd5gu
+File name: NEW.docx, MIME type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Processing Word document: NEW.docx
+Saved Word document to temporary path: /var/folders/5q/03s0pdjd0kz58p30p9x56d4w0000gp/T/1ddtP_rkM8NcVZBhuiQIErOILvorjd5gu-1745163462663.docx
+Successfully extracted 9738 characters from Word document using mammoth
+Document analysis: 0/500 problematic characters (0.00%)
+Successfully loaded content from NEW.docx: 8670 characters
+Chunking document NEW.docx (1ddtP_rkM8NcVZBhuiQIErOILvorjd5gu)
+Processing file: Screen Shot 2021-10-25 at 10.21.10 AM.png (1Ghj5SsqIyY_h4XtjOyKkEobo7CEcwvRU) - image/png
+Getting content for file: 1Ghj5SsqIyY_h4XtjOyKkEobo7CEcwvRU
+File name: Screen Shot 2021-10-25 at 10.21.10 AM.png, MIME type: image/png
+Skipping file with insufficient content: Screen Shot 2021-10-25 at 10.21.10 AM.png - Content: File Screen Shot 2021-10-25 at 10.21.10 AM.png is of type image/png and cannot be processed as text....
+Processing file: Screen Shot 2021-10-18 at 11.55.18 AM.png (1gYMj1hglfFKdf-THpNNPLou1bzRCKrDi) - image/png
+Getting content for file: 1gYMj1hglfFKdf-THpNNPLou1bzRCKrDi
+File name: Screen Shot 2021-10-18 at 11.55.18 AM.png, MIME type: image/png
+Skipping file with insufficient content: Screen Shot 2021-10-18 at 11.55.18 AM.png - Content: File Screen Shot 2021-10-18 at 11.55.18 AM.png is of type image/png and cannot be processed as text....
+Processing file: download.jpeg (1v1spnfCLlRuU6l7-yfYO_-wgh5KZZiu3) - image/jpeg
+Getting content for file: 1v1spnfCLlRuU6l7-yfYO_-wgh5KZZiu3
+File name: download.jpeg, MIME type: image/jpeg
+Created 27 chunks for BAE - Team Meeting 4.27.21.pptx
+Skipping file with insufficient content: download.jpeg - Content: File download.jpeg is of type image/jpeg and cannot be processed as text....
+Processing file: Screen Shot 2021-10-13 at 9.05.41 AM.png (1JaKsjCZEjG9H1D267hfNxUCn8r-SdnpH) - image/png
+Getting content for file: 1JaKsjCZEjG9H1D267hfNxUCn8r-SdnpH
+File name: Screen Shot 2021-10-13 at 9.05.41 AM.png, MIME type: image/png
+Skipping file with insufficient content: Screen Shot 2021-10-13 at 9.05.41 AM.png - Content: File Screen Shot 2021-10-13 at 9.05.41 AM.png is of type image/png and cannot be processed as text....
+Processing file: Connor O'Brien Resume (Unqork).docx (1wCQ78jgPsA-Oc16dhD8GnqdG7ogH8OAg) - application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Getting content for file: 1wCQ78jgPsA-Oc16dhD8GnqdG7ogH8OAg
+File name: Connor O'Brien Resume (Unqork).docx, MIME type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Processing Word document: Connor O'Brien Resume (Unqork).docx
+Created 23 chunks for Connor O'Brien Resume (Figma).docx
+Saved Word document to temporary path: /var/folders/5q/03s0pdjd0kz58p30p9x56d4w0000gp/T/1wCQ78jgPsA-Oc16dhD8GnqdG7ogH8OAg-1745163467136.docx
+Successfully extracted 9139 characters from Word document using mammoth
+Document analysis: 0/500 problematic characters (0.00%)
+Successfully loaded content from Connor O'Brien Resume (Unqork).docx: 7830 characters
+Chunking document Connor O'Brien Resume (Unqork).docx (1wCQ78jgPsA-Oc16dhD8GnqdG7ogH8OAg)
+Processing file: SFDC Load - Opportunities.xls (1C33bocPcX2HbrdTawDKOPxqhNb5TtnpU) - application/vnd.ms-excel
+Getting content for file: 1C33bocPcX2HbrdTawDKOPxqhNb5TtnpU
+File name: SFDC Load - Opportunities.xls, MIME type: application/vnd.ms-excel
+Successfully loaded content from SFDC Load - Opportunities.xls: 103 characters
+Chunking document SFDC Load - Opportunities.xls (1C33bocPcX2HbrdTawDKOPxqhNb5TtnpU)
+Processing file: Anaplan Discovery Toolkit with MEDDPICC v1.xlsx (1HKZOCw_dsfaaout1Fl8aiWFvpeuFrE90) - application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+Getting content for file: 1HKZOCw_dsfaaout1Fl8aiWFvpeuFrE90
+Created 1 chunks for SFDC Load - Opportunities.xls
+File name: Anaplan Discovery Toolkit with MEDDPICC v1.xlsx, MIME type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+Processing Word document: Anaplan Discovery Toolkit with MEDDPICC v1.xlsx
+Created 23 chunks for NEW.docx
+Saved Word document to temporary path: /var/folders/5q/03s0pdjd0kz58p30p9x56d4w0000gp/T/1HKZOCw_dsfaaout1Fl8aiWFvpeuFrE90-1745163469465.docx
+Error extracting Word document content: Error: Could not find the body element: are you sure this is a docx file?
+    at Object.convertXmlToDocument (/Users/ConnorOBrien/Desktop/thegtmapp/backend/node_modules/mammoth/lib/docx/document-xml-reader.js:14:19)
+    at /Users/ConnorOBrien/Desktop/thegtmapp/backend/node_modules/mammoth/lib/docx/docx-reader.js:78:35
+    at Result.flatMap (/Users/ConnorOBrien/Desktop/thegtmapp/backend/node_modules/mammoth/lib/results.js:20:22)
+    at /Users/ConnorOBrien/Desktop/thegtmapp/backend/node_modules/mammoth/lib/docx/docx-reader.js:72:40
+    at Result.flatMap (/Users/ConnorOBrien/Desktop/thegtmapp/backend/node_modules/mammoth/lib/results.js:20:22)
+    at /Users/ConnorOBrien/Desktop/thegtmapp/backend/node_modules/mammoth/lib/docx/docx-reader.js:71:33
+    at /Users/ConnorOBrien/Desktop/thegtmapp/backend/node_modules/mammoth/lib/docx/docx-reader.js:182:24
+From previous event:
+    at read (/Users/ConnorOBrien/Desktop/thegtmapp/backend/node_modules/mammoth/lib/docx/docx-reader.js:69:8)
+    at process.processImmediate (node:internal/timers:478:21)
+From previous event:
+    at Object.extractRawText (/Users/ConnorOBrien/Desktop/thegtmapp/backend/node_modules/mammoth/lib/index.js:83:10)
+    at GoogleDriveService.getFileContent (/Users/ConnorOBrien/Desktop/thegtmapp/backend/dist/services/googleDriveService.js:356:54)
+    at async ChatbotService.loadDocumentsFromDrive (/Users/ConnorOBrien/Desktop/thegtmapp/backend/dist/services/chatbotService.js:37:37)
+Successfully retrieved content for file: 1HKZOCw_dsfaaout1Fl8aiWFvpeuFrE90
+Document analysis: 72/500 problematic characters (14.40%)
+Successfully loaded content from Anaplan Discovery Toolkit with MEDDPICC v1.xlsx: 740052 characters
+Chunking document Anaplan Discovery Toolkit with MEDDPICC v1.xlsx (1HKZOCw_dsfaaout1Fl8aiWFvpeuFrE90)
+Processing file: TEMPLATE_ Deck for Retros .pptx (1kjRo-JZ08-tQ43d5BEXki4lTk8UOKv4K) - application/vnd.openxmlformats-officedocument.presentationml.presentation
+Getting content for file: 1kjRo-JZ08-tQ43d5BEXki4lTk8UOKv4K
+File name: TEMPLATE_ Deck for Retros .pptx, MIME type: application/vnd.openxmlformats-officedocument.presentationml.presentation
+Processing PowerPoint file: TEMPLATE_ Deck for Retros .pptx
+Starting PowerPoint text extraction for: TEMPLATE_ Deck for Retros .pptx
+Error initializing office-text-extractor: Error [ERR_REQUIRE_ESM]: require() of ES Module /Users/ConnorOBrien/Desktop/thegtmapp/backend/node_modules/office-text-extractor/build/index.js from /Users/ConnorOBrien/Desktop/thegtmapp/backend/dist/services/googleDriveService.js not supported.
+Instead change the require of index.js in /Users/ConnorOBrien/Desktop/thegtmapp/backend/dist/services/googleDriveService.js to a dynamic import() which is available in all CommonJS modules.
+    at /Users/ConnorOBrien/Desktop/thegtmapp/backend/dist/services/googleDriveService.js:54:85
+    at async initializeTextExtractor (/Users/ConnorOBrien/Desktop/thegtmapp/backend/dist/services/googleDriveService.js:54:37)
+    at async GoogleDriveService.extractTextFromPowerPoint (/Users/ConnorOBrien/Desktop/thegtmapp/backend/dist/services/googleDriveService.js:405:9)
+    at async GoogleDriveService.getFileContent (/Users/ConnorOBrien/Desktop/thegtmapp/backend/dist/services/googleDriveService.js:330:44)
+    at async ChatbotService.loadDocumentsFromDrive (/Users/ConnorOBrien/Desktop/thegtmapp/backend/dist/services/chatbotService.js:37:37) {
+  code: 'ERR_REQUIRE_ESM'
+}
+Created 2 chunks for Anaplan Discovery Toolkit with MEDDPICC v1.xlsx
+Created 20 chunks for Connor O'Brien Resume (Unqork).docx
+Saved PowerPoint file to temporary path: /var/folders/5q/03s0pdjd0kz58p30p9x56d4w0000gp/T/1kjRo-JZ08-tQ43d5BEXki4lTk8UOKv4K-1745163473884.pptx
+Read 62116877 bytes from temporary PowerPoint file

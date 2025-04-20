@@ -7,6 +7,7 @@
     "start:docker": "docker-compose up -d && npm run docker:check",
     "start:frontend": "cd frontend && npm run dev",
     "start:backend": "cd backend && npm run dev",
+    "restart": "bash scripts/kill-port.sh && npm run dev",
     "docker:check": "sh scripts/docker-check.sh",
     "docker:reset": "sh scripts/reset-docker.sh",
     "docker:rebuild": "docker-compose down && docker-compose build --no-cache && docker-compose up -d",
@@ -31,5 +32,8 @@
     "@modelcontextprotocol/server-brave-search": "^0.6.2",
     "concurrently": "^8.2.0",
     "openai": "^4.91.1"
+  },
+  "devDependencies": {
+    "@types/pdf-parse": "^1.1.5"
   }
 }

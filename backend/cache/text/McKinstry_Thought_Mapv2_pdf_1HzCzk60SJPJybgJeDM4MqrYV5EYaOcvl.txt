@@ -1,0 +1,145 @@
+
+
+McKinstry 
+Anaplan Thought 
+Map (Anaplan 
+August 21)
+Samplepunch line: across 
+the McKinstry portfolio of 
+services, using Anaplan to 
+achieve:
+1.Cross-LOB/practice 
+area financial reporting 
+with real-time scenario 
+analysis
+2.Project-based planning:  
+staffing, margins, 
+budgeting –BVA 
+reporting at project 
+level
+
+Hello McKinstry team,
+Within this deck is a draft of a planning scenario for McKinstry based on 
+public research. An application of cross-practice area financial reporting and 
+project-based planning with real time budget-versus-actuals scenario 
+reporting stood out as an interesting area of focus. Other customers like 
+Gensler and Jacobs in AEC are using Anaplan similarly. Called them out 
+specifically because I have worked with them in the past regarding Anaplan 
+initiatives.
+For purposes of introduction, I am your Anaplan Account Executive and look 
+forward to the opportunity to meet with you to further tailor a business case 
+for McKinstry.
+Steven Gnatovich
+
+Gensler
+•Similar organization of the 
+business to McKinstry: 
+planning both by geography 
+and business unit but also 
+by practice area (education, 
+civic, energy, etc.)
+•Right: sample outline of 
+Anaplan initiatives for year
+•Happytoconnectyouto
+them –great group. Used to 
+work closely with them.
+
+1. Lease Transaction Analysis
+2. Capacity & RE Budgeting3. Project Planning
+Current Solution: xxx
+Solves for: with 500+ office locations 
+worldwide, xxx office space is a leading OPEX 
+spend; limited ability to track upcoming lease 
+events/evaluate competing lease proposals for 
+current sites/evaluate new offices in regions
+Anaplan Solution: model to evaluate 
+upcoming lease events and position base case 
++ create multiple lease scenarios
+Required Information: current lease data, 
+headcount by location
+Current Solution: xxx
+Solves for: 80K+ employees worldwide -
+employees need to be staffed to 
+regions/offices/buildings/floors; add’l
+budgeting per head/office for current and TBH 
+employees
+Anaplan Solution: based on capacity data from 
+lease model –Anaplan model flags locations 
+nearing capacity and requiring need for add’l
+lease event (move/expansion); office-specific 
+driver-based budgeting
+Required Information: headcount & employee 
+data by office; current office capacity; 
+TBH/REQ data for longer view capacity 
+planning
+Current Solution: xxx
+Solves for: 226 projects across all offices 
+(estimated 100 hours spent on project planning 
+* assumed $50/hrper employee = 1.1M yearly 
+spend projects planning); limited ability to 
+aggregate project spend data
+Anaplan Solution: “roll up” project data into 
+offices with automated actuals per project & full 
+insight into project budget/pacing/burn
+Required Information: project list; actuals 
+transaction; project budget information
+Real 
+Estate COE
+Use Cases
+Anaplan  
+Benefit
+•Seamless model connection between 
+upcoming leases and current capacity allows 
+“two-way street” between office and people 
+planning
+•Additional possibility: involve upcoming 
+opportunities data to determine regions for 
+additional investment
+•Effectively produce budget/actuals/BVA at 
+individual office/project level
+•Consistent project formatting with drill-down 
+to individual project 
+transactions/phase/components
+•Copy similar projects & workflow to cut 
+project planning time in half
+2213231
+•A complete connected planning solution that 
+tracks the entire operation of an office from 
+determining office need, to operational 
+planning at the office and project level
+•Layered-in allocations for full office-level P&L
+•Customer example: Gensler(architecture & 
+design PS firm with full project detail & 
+office/practice area P&L)
+Jacobs –Roadmap Definition
+
+1. Lease Transaction Analysis
+2. Capacity & RE Budgeting3. Project Planning
+Jacobs –Roadmap Definition
+Note: screenshots on this page contain no sensitive detail. Any customer/prospect named references here were a result of light tailoring of a POC to customer/prospect naming. 
+
+1. Lease Transaction Analysis
+2. Capacity & RE Budgeting3. Project Planning
+Jacobs –Roadmap Definition
+Note: screenshots on this page contain no sensitive detail. Any customer/prospect named references here were a result of light tailoring of a POC to customer/prospect naming. 
+
+1. Lease Transaction Analysis
+2. Capacity & RE Budgeting3. Project Planning
+Jacobs –Roadmap Definition
+Note: screenshots on this page contain no sensitive detail. Any customer/prospect named references here were a result of light tailoring of a POC to customer/prospect naming. 
+
+Intended Next Steps
+Rather than a product-
+focused pitch meeting, my 
+intended next step is to find a 
+McKinstry problem or 
+planning gap that a 
+connected planning 
+environment can solve for.
+Aninterestingproofof value 
+might evenbetouseAnaplan
+tocreatetheperformance-
+basedcontractstructure?
+Havebeentoyingaroundwith 
+that idea. Keen to hear your 
+thoughts.

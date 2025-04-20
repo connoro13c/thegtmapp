@@ -1,0 +1,76 @@
+IDOL Work Flow 2.02
+
+
+
+IDOL must report federal financial reports using an accrual basis and Luma payroll records are on a cash basis.   To facilitate accrual reporting, IDOL must maintain adjustments to “convert” Luma data to an accrual basis.  
+
+
+
+Example:
+
+The state payroll system posts $400,000 in payroll costs to Luma with a transaction date of July 9, 2021.  The pay period paid was for June 13 to June 26, 2021.   All of the payroll was earned in June and must be reported as June expenditures for federal reporting purposes, but the state system has recorded the payroll as July.  To correct the timing issue we need accrual adjustment records that credit July and debit June for $400,000.  
+
+
+
+In most cases the pay period will begin in one month and end in the next month.  In this case the adjustment would be for the portion of the payroll that was earned in the first month.   
+
+
+
+Adjustment records would need the following fields:
+
+Date
+
+Org Unit
+
+Project Code
+
+Account 
+
+Dollar Amount
+
+Hours
+
+Year-Month
+
+Description (“Payroll Accrual: PR 21001”)
+
+
+
+Sample Records
+
+I-Time
+
+
+
+
+
+IDOL I-TIME (week was paid in January)
+
+
+
+Time Codes: 1 = hours worked, 2 = annual leave, 3 = other leave
+
+
+
+Accrual Adjustment
+
+
+
+All six allocation steps required accrued financial data.  Cash basis records from Luma and accrual adjustment records from the accrual system must be combined to identify cost pool totals and to compute allocation ratios.  
+
+
+
+Payroll is reported by employees by day so accruals are based on date hours were worked or leave was taken.  Benefits are accrued between months based on the monthly accrued wage percentage by org unit and project code for the pay period.  
+
+
+
+Wage Accrual
+
+
+
+
+
+Benefit Split by Month
+
+
+

@@ -1,0 +1,355 @@
+3Q22 RVP AVP QBR (BAE).pptx
+
+
+
+Sub Region QBR
+Connor O’Brien (BAE)
+August 2021
+
+Executive Summary – Q2
+Executive Summary
+Highlights
+•Performance at $393k | 34.8% of plan | + 21% YoY | - 49% QoQ
+•Forecast Accuracy: 95% (393 on 410)
+•Linearity of 11% over first 60 days
+•100% Renewal
+•Expand Performance
+•Expand 82% of Total NNACV vs 4Q average: 81.5%
+•Expand 57% of Total Open Pipeline vs 4Q average: 81.5%
+•Land Performance
+•Land 18% of Total NNACV vs 4Q average: 18%
+•Land 43% of Total Open Pipeline vs 4Q average: 18%
+•Total Pipeline Gen: $4,541  |  60% of plan (Target: $7,553) | +75% YoY (over $2,590) | +15% QoQ (over $3,935)
+•0% of BP Contribution
+•0 deals over $1M, 0 deals over $500K, 1 deal over 200k
+•Functional Segmentation:  49% Financial, 51% SPM, 0% Supply Chain
+•Q2 ASP:  65k | -26% YoY (65k  88k) | -49% QoQ (128k  65k)
+•Q2 AE Contribution of 42% (Tomina, Marcus, Jinah)
+Top Wins
+Top Partners
+Opportunities
+•Forecast Accuracy 
+•Commit Coverage
+•Deal qualification & MEDDPICC
+•PipeGen
+•Expanding Deal Size / Focusing on Business Outcomes 
+5%
+18%
+11%
+51%12%
+
+Q2 Key Customer Loss
+CustomerAreaDeal Size 
+($K)
+LOBUse CaseCompetitor
+s*
+Customer Decision Criteria/
+Competitive Differentiator
+1. TwilioBAE382SPM
+Quota and Sales 
+Capacity
+Adaptive
+Not enough time and ability to 
+bring in a complex solution like 
+Anaplan.
+2. DocuSignBAE
+201 
+(should have 
+been 500)
+SPM
+Sales Forecasting, 
+Quota, Territory 
+Planning
+N/AWe won... just felt like a loss
+* List winning competitor in bold if multiple vendors
+•
+Needed to start earlier
+•
+Get higher, sooner
+•
+Get tighter alignment to value sooner
+•
+Selling SPM SKU to existing customers is hard... takes time
+Trends
+
+High Level Deal Information
+Projected ACV    $382
+FunctionSales
+Use CaseQuota & Capacity
+CompetitorAdaptive
+Industry        High Tech
+Region       BAE
+Partner         Spaulding Ridge
+Lost Quarter   Q2FY22
+Top 3 Reasons We Lost
+1.Timing (not enough of it)
+2.Too slow to sell value
+3.Immature buyers
+“Timing: temporarily staying with internal solution 
+since Twilio is concerned about using a new tool 
+for their annual planning immediately after going 
+live. 
+They would like to revisit in January so that they 
+can use Anaplan for their next planning cycle”
+Company Overview
+Twilio is an American cloud communications platform as a service company based in San Francisco, California. Twilio allows software developers to programmatically make and receive phone calls, 
+send and receive text messages, and perform other communication functions using its web service APIs.
+Executive Summary 
+Twilio originally went with Adaptive Planning for Quota Planning and Capacity Planning last year. Adaptive failed and forced Twilio back into Google Sheets. They wanted to re-evaluate options for 
+tooling and put Sr. Manager, Megan Lu, in charge of the evaluation. 
+The primary drivers behind their evaluation was Twilio had been struggling keeping up with their scale and increase GTM operational complexity due to organic growth and M&A activity. Additionally, 
+GTM leadership felt they were “leaving money on the table” due to poor territory & quota planning as well as capacity planning and talent acquisition. 
+The primary features Twilio claimed to be assessing for:
+-
+Best of breed solution
+-
+We need to have the right plan and team in place to accomplish our goals
+-
+A system that allows us consistency and transparency to work from a single source of truth
+-
+Allows for flexibility
+-
+Drives increase productivity through operational efficiency and a better book of busines
+Tactics We Leveraged
+•
+Value Insights
+•
+Exec Engagement
+•
+Aggressive discounting, SOW creation, and invest of ProServ hours
+Loss Review Template
+Internal Use Only
+Purchase Decision ProcessValue Proposition Alignment 
+•Empowered low-level manager (COO pushed to VP of 
+GTM who pushed to VP of Biz Systems who pushed to 
+Sr Manager of Quota Planning)
+•Ran us head-to-head vs Adaptive (existing solution)
+•Boiled down to timing and cost
+•Increased Rev (30M – 60M)
+•Reduced Costs (4.4M – 6.4M)
+•Increased Productivity (3.6M)
+Economic FactorsSolution/Product Fit
+•Micro: “Too expensive” / “Doesn’t Scale”
+•Macro: None
+•Were told we were the better solution
+•Couldn’t get over cost / level of effort to own
+•Couldn’t get over not enough time to effectively change 
+mange
+
+H1 Performance Scorecard
+% of H1 Plan:
+57%
+% of Linearity:
+49%
+% of Accuracy:
+99%
+Renewal Rate:
+100%
+% of AE Contribution:
+100%
+$ of Large Deals:
+$0M
+% of Pipe Gen Target:
+60%
+% of BP Contribution:
+2
+# of New Logos:
+0%
+
+Path to FY22 Plan
+Results ($M)Attainment
+H1$1,14857% H1 |  
+Projected Q3$1,535120%
+Projected Q4$1,800133%
+Total$4,44899%
+B
+o
+o
+k
+i
+n
+g
+s
+ 
+P
+l
+a
+n
+FY22 Target: $4,553
+
+Commit by AE
+AECommitOpps
+Tomina$275
+Zoom Territories & PI (300), CloudBees Marketing (100), CloudBees PI / Acct Seg (100), 
+WilburEllis ICM (300), Wilbur Ellis FP&A (100) | Total: 900
+Marcus$210
+Upwork (175), Confluent (25), PagerDuty Marketing (45), GlobalLogic (23) | Total: 278
+Jinah$401
+DocuSign (201), New Relic SPM (200), New Relic FP&A (50) | Total: 451
+Steve G$100
+State of Idaho (150), Santa Clara Valley Water (50), Santa Clara University (20), East Side 
+Union (75), SAWS Phase 2 (100) | Total: 395
+Elizabeth$5
+Mayfield Renewal (5), Infinera (100), Mercari (75) | Total: 180
+Dan$300
+Cost Plus (100), Gilead Finance Transformation (250), Gilead Managed Markets (200), 
+Carbon3D SCM (45) | Total: 595
+Stephen T$300
+Square SCM (300), Tibco PI & Optimizer (150), Lyft Renwal (10k), 
+AirBnB Renewal (???) | Total: 460
+TOTAL$1,440Total Pipeline: 3,200 (2.2x Coverage)
+B
+o
+o
+k
+i
+n
+g
+s
+ 
+P
+l
+a
+n
+Blue = Upside
+Green = Commit
+
+Path to FY22 Plan
+Results ($M)Attainment
+H1$1,14857%
+Projected Q3$1,440122%
+Projected Q4$1,853137%
+Total$4,55397.5%
+Growth InitiativesImpactPath to Execution
+1. ZBB$
+Working with BV Team and Finance Solutions 
+Leads on campaigns to launch for accounts 
+affected by COVID / Instability
+2. Focusing on Business 
+Problems
+$$Mandate: No more use case selling. 
+3. PlanIQ$$
+Getting good traction with some opps. 
+Working with SC team on getting “demo 
+ready”
+B
+o
+o
+k
+i
+n
+g
+s
+ 
+P
+l
+a
+n
+P
+i
+p
+e
+ 
+G
+e
+n
+Results ($M)Attainment
+H1$8,626 61%
+Projected Q3$5,00066%
+Projected Q4$5,50076%
+Total$19,12666%
+Pipe Gen Action PlanImpactPath to Execution
+1. Weekly Power Hours$$
+Looking for ideas on how to do this / 
+collaborate
+2. CS Expand Cadences$$
+Trevor and I are better aligned, looking at 
+data, presenting weekly to the team.
+3. Partner Expand 
+Cadences
+$$Bi-Weekly Partner Account Deep-dives
+
+Key H2 Deals
+RegionAccountOpp NameValue ($)
+Forecast 
+Category
+StagePartner
+Close 
+Date
+Exec Sponsor
+BAESquareSCM300-600CommitStage 3TBD10/29/21Evan Q
+BAEOktaMRM (SELA)300-600PipelineStage 1TBD1/31/22Michael S / Charlie M
+BAEZoomTerritory Expansion / PI300-600UpsideStage 2Spaulding Ridge10/31/21
+Bill Schuh / Jaime 
+Cooley
+BAEGileadFinance Transformation200-400UpsideStage 2Deloitte9/30/21Bill Schuh
+BAEBioMarinSupply LRP300PipelineStage 2Deloitte / Keyrus1/31/21Victor Barnes
+BAERossRoss – Store Planning200PipelineStage 1Accenture12/15/21TBD
+BAECA SAWSCA SAWS Phase 2 200UpsideStage 2McKinsey9/30/21TBD
+BAEWilbur EllisFinance Transformation200
+Upside / 
+Commit
+Stage 3LionPoint10/29/21TBD
+BAECloudBeesMRM / SPM200
+Upside / 
+Commit
+Stage 3Spaulding Ridge9/29/21TBD
+BAETibcoPI & Optimizer150UpsideStage 2TBD10/29/21Frank Calderoni
+BAESquareSPM / Territory Mgmt150PipelinStage 1TBD1/31/22TBD
+TOTAL2,500 - 3,600
+
+KEEP (more)
+•
+Exec Engagement
+•
+Databook
+•
+PipeGen
+•
+QSRs
+•
+Giants Suite (barring COVID issues)
+STOP
+•
+Use case selling
+•
+Settling for IT and Dir.-Level Contacts
+•
+“Training and Enablement”
+START
+•
+“If you don’t like how the table is set, flip it over” 
+•
+Collaborating across pods
+•
+Getting ahead of Renewals and Engagement issues sooner
+•
+PipeGen
+•
+PipeGen Activity Tracking – Can we get this?
+•
+Partner and CS PipeGen Contribution
+•
+(re)start Outreach use
+•
+Collaborate / Share More
+What Now?
+
+VendorWFPSPMIBPMktg PlanningIT Planning
+Anaplan
+Board
+Calumo
+Jedox
+IBM
+Insightsoftware
+OneStream
+Oracle
+Planful
+SAP
+Solver
+Unit4
+Vena
+Tagetik
+Workday
+
+Thank you!

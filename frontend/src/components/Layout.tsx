@@ -1,5 +1,6 @@
-import React, { ReactNode } from 'react';
+import { ReactNode } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import ChatBot from './ChatBot';
 
 interface LayoutProps {
   children: ReactNode;
@@ -53,6 +54,8 @@ const Layout = ({ children }: LayoutProps) => {
         <main className="p-4">
           {children}
         </main>
+        
+        {/* Chat Bot is now added in App.tsx for global visibility */}
       </div>
     </div>
   );

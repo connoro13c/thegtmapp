@@ -1,0 +1,218 @@
+Case Studies.pptx
+
+
+
+Case Studies
+
+Case Study: FP&A
+Problems
+•
+Creating financial plans multiple times 
+throughout the year for different stakeholders 
+(for board, divisions, CEO/CFO) in excel. 
+•
+Financial planning is not a fluid or dynamic plan. 
+It's based on a static report that gets produced 
+once a year (oct)
+•
+No version controls 
+•
+No ability to do scenario analysis/what if 
+analysis 
+•
+Spending too much time manipulating data of 5  
+financial statements from all the divisions into 1 
+corporate financial statement
+ROI
+•
+Currently spending 50% of time planning, which 
+could now be spent forecasting and analyzing 
+•
+Increased data accuracy
+•
+Creating one source of truth will alleviate the 
+unclarity around the final output. Assumptions 
+can be documented and tracked. Current 
+process takes weeks, could be done in 1 day. 
+•
+Better understand financial drivers and impact 
+to the business through integrated scenario 
+analysis. 
+•
+Provide more guidance to the divisions, allowing 
+for short, medium and long-range planning. 
+Allow for early identification of financial 
+opportunities.
+
+Case Study: ERM
+Problems- Insurance budget
+•
+The ERM group relies on company wide data 
+that is not contained in a single system. All 
+external data must be manually entered, 
+validated and adjusted, which takes a lot of 
+time. 
+•
+No ability to do scenario planning or versions 
+control.
+•
+No ability to accurately see YOY change and 
+variance analysis 
+•
+Scenario is based on forecast instead of actuals. 
+•
+1 excel workbook with 35 Excel sheets with 
+messy formulas 
+ROI
+•
+Scenario analysis can be easily done, shortening 
+timeline from 2 weeks to 1 day to deliver final 
+product
+•
+Saving 2-3hrs a day over a  3-month period. 
+•
+Having a system where analysis can be easily 
+performed creates an understanding of drivers. 
+This allows for effective communication with 
+stakeholders
+•
+Having a streamlined process provides 
+confidence in calculations and data
+•
+Creates a database with historical values. 
+•
+Allows for variance analysis which is currently 
+not possible. (rate of error can currently not be 
+tracked) 
+
+Case Study: ERM
+Problems- Statement of Values
+•
+The ERM group relies on company wide data that 
+is not contained in a single system. All external 
+data must be manually entered, validated and 
+adjusted, which takes a lot of time. 
+•
+Data is not compatible with each other (hierarchy 
+names are different in different sources)
+•
+No ability to accurately see YOY change and 
+variance analysis  
+•
+Insurance premiums and claim payments are 
+based on values, which is currently under or 
+overstated. This causes a huge risk to the business
+•
+Rate of error can currently not be tracked 
+•
+Static document that stakeholders do not have the 
+ability to reference throughout the year to inform 
+asset management (both internal & external)
+ROI
+•
+Saving 6 hrs. a day over a 4 weeks period. 
+•
+Having an accurate system can help internal 
+stakeholders manage their business better.
+•
+Accurate and reliable data can help create more 
+constant insurance premiums YOY. This allows 
+better financial budgeting. 
+•
+Creates a database with historical values to allow 
+for variance analysis YOY. 
+•
+Having a reliable & real time database, would help 
+WE comply and stay ahead of regulatory 
+challenges.
+•
+Clear understanding of what locations have what 
+assets for footprint analysis 
+
+Case Study: Sales Incentive Plan
+Problems
+•
+New sales incentive plan project is underway a 
+key objective for the project team is to define 
+an improved methods for tracking and reporting 
+sales incentive plan activities. 
+•
+Current spreadsheet methods for tracking sales 
+incentives are labor intensive and lead to errors 
+in the data.
+•
+ Sensitive data that does not have sharing 
+controls
+•
+No standardization for target setting across 
+regions. Each DSM has their own target setting 
+mechanism
+•
+Data consistency issues and problems 
+consolidating sheets, formulas & version control
+•
+No ability to do scenario analysis or forecasting
+ROI
+•
+Spending too much time doing data 
+manipulation in Excel. Integrated system would 
+save  8-10% of teams  total time throughout the 
+year which can now be spent on analysis
+•
+A standardize target setting process that can be 
+tracked by individual salespeople & managers 
+throughout the season/year. 
+•
+Improve the incentive management process to 
+align better with increased sales effort and 
+financial rewards and create transparency.
+•
+Ensure protection of Sensitive data 
+•
+Confidence in the data and process allowing for 
+better communication with stakeholders. 
+
+Case Study: Treasury
+Challenges
+•
+Lack of adequate visibility into global daily cash 
+positions in corporate and affiliate bank accounts
+•
+No proper tool for short-term and long-term (13 week) 
+cash forecasting
+•
+Requires significant manual effort
+•
+Limited view of corporate liquidity picture to make 
+optimal capital and financing decisions
+•
+Manual tracking and reporting of capital structure, 
+specifically debt portfolio, to manage bank relationships 
+and financing exposure 
+•
+Inability to track global currency risk and exposure 
+efficiently
+•
+Significant effort involved in ensuring data integrity 
+across the divisions as it is very bespoke and 
+fragmented
+ROI
+•
+Develop ability to quickly analyze our capital and 
+liquidity position and how to optimize it 
+•
+Improved data integrity and accuracy
+•
+Enhanced visibility into global cash positions
+•
+Enhanced controls and governance overnight for 
+Treasury processes
+•
+Established cash forecasting process to pre-empt 
+capital and liquidity needs 
+•
+Perform variance analysis to run analytics and 
+identify trends
+•
+Proper tracking and reporting to manage current debt 
+portfolio that drives informed discussions with lenders 

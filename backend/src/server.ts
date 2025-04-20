@@ -9,6 +9,7 @@ import territoriesRouter from './routes/territories';
 import segmentsRouter from './routes/segments';
 import trialsRouter from './routes/trials';
 import openaiRouter from './routes/openai';
+import chatbotRoutes from './routes/chatbotRoutes';
 
 // Load environment variables
 dotenv.config();
@@ -29,6 +30,7 @@ app.use('/api/territories', territoriesRouter);
 app.use('/api/segments', segmentsRouter);
 app.use('/api/trials', trialsRouter);
 app.use('/api/openai', openaiRouter);
+app.use('/api/chatbot', chatbotRoutes);
 
 // For backward compatibility
 app.use('/accounts', accountsRouter);
@@ -39,7 +41,16 @@ app.use('/openai', openaiRouter);
 
 // Health check endpoint
 app.get('/health', (req, res) => {
-  res.status(200).json({ status: 'ok' });
+  // Return more detailed status information
+  res.status(200).json({
+    status: 'ok',
+    timestamp: new Date().toISOString(),
+    env: process.env.NODE_ENV || 'development',
+    services: {
+      googleDrive: process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL ? 'configured' : 'not configured',
+      openai: process.env.OPENAI_API_KEY ? 'configured' : 'not configured'
+    }
+  });
 });
 
 
@@ -48,13 +59,13 @@ app.get('/health', (req, res) => {
 
 // AI inspiration endpoint - defined directly in server.ts for reliability
 // Add basic rate limiting - a simple in-memory solution
-const lastRequestTime = {};
+const lastRequestTime: Record<string, number> = {};
 const RATE_LIMIT_WINDOW = 5000; // 5 seconds between requests from same IP
 
 app.get('/ai-inspiration', cors(), async (req, res) => {
   try {
     // Get client IP address
-    const clientIp = req.ip || req.headers['x-forwarded-for'] || 'unknown';
+    const clientIp = (req.ip || req.headers['x-forwarded-for'] || 'unknown').toString();
     
     // Basic rate limiting
     const now = Date.now();

@@ -1,0 +1,132 @@
+
+
+Process
+GTM Requisition to Hire Process (Data Flow)
+Req shell is created 
+by finance
+- AOP Wishlist
+- Wishlist Priority (if 
+applicable)
+- Cost Center (L4)
+- Territory
+- Office Location 
+Input
+- Hiring Status 
+(Overwrite)
+- REQ Year
+- Job Title
+- Confidential REQ?
+- HC Role
+- Start Date
+- Term Date (if 
+applicable)
+- Known Person
+- Existing Employee 
+Name (For 
+Transfers)
+- Cancel REQ?
+- Backfill REQ?
+- Backfill for Prior 
+Personnel
+- Salary in LC
+- Bonus %
+- Commission Target 
+in LC
+Req populated with 
+Sales Ops details
+ - POD (Territory)
+ - Commission Plan 
+Type
+- Adjusted Sales 
+Date
+Req approved for 
+hiring by finance
+- Push REQ to GH? 
+Boolean
+Req populared with 
+HR details
+- Cost Center
+- Workday Job Title
+- Job Family Group
+- Job Family
+- Job Level 
+- Time Type
+- Worker Type
+- Worker Sub Type
+- Template Job
+- External Job Name
+- Hiring Manager
+- Recruiter
+- Override Bonus 
+Plan?
+- Override Equity 
+Range?
+- Company
+- Country
+- Booloean
+ 
+Reconciliation 
+Dashboard 
+(PBF/GH)
+Reconciliation 
+Dashboard 
+(PBF/SPM/GH/WD)
+Req in GH
+Employee in 
+WD
+PBF
+(Finance)
+SPM
+(Sales Ops)
+Headcount Planning
+(HR / TA)
+Legend
+Reconciliation 
+Dashboard 
+(SPM/GH)
+AOP
+Incremental 
+HC Request
+New!
+Change is 
+triggered
+Change is 
+triggered
+Hourly
+Change is 
+triggered
+Change is 
+triggered
+Field?
+POD or 
+Comm Plan Type
+Anything else
+Field?
+TA field (list below)
+Non-TA field
+Data Hub
+Compensation is 
+calculated
+Offer
+Accepted
+Rescinded
+Termination or 
+Transfer 
+(Backfill)
+Req creation in 
+Anaplan completed
+Compensation 
+(Comp)
+If this is for a req with 
+a new job profile, the 
+Compensation team 
+needs to create it 
+(based on 
+competitive ranges 
+for job profile and 
+office location 
+intersection)
+- OK to Send to 
+Greenhouse Boolean
+Employee 
+Starts

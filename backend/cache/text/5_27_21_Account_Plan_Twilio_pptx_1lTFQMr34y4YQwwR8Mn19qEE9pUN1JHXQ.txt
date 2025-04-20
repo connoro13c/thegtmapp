@@ -1,0 +1,451 @@
+5.27.21 Account Plan_Twilio.pptx
+
+
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Executive Briefing Document
+May 27, 2021
+
+•
+Click to add Text
+2
+Account Overview
+
+Solid
+Removed
+Triangles
+Solid
+Grid as triangles to create cube
+30 degree angle
+Outline
+Account Team
+AE: Jinah Conroy
+RVP: Connor O’Brien 
+BP: Saki Takasu
+SC: Greg Miller
+SPM Overlay: David Stern
+Live Anaplan Use Cases: FP&A
+•
+OPEX Planning
+•
+Workforce Planning
+Company Snapshot
+•
+Employees: 2,300 (as of Aug 2021)
+•
+Fiscal Year: Apr – Mar
+•
+Revenue: 
+•
+FY21: $668M (up 11% YoY)
+•
+FY20: $600M
+•
+Dollar-based NRR: 137% (FY20)
+•
+Market Cap: $5.14B (Aug 2021)
+•
+Industry: Application Performance 
+Monitoring
+SEC Filings
+•
+Annual Report : 2020 10K
+•
+Quarterly Report: 10Q (March 31, 2021)
+Company Overview: New Relic is a San Francisco, California-based technology company which 
+develops cloud-based software to help website and application owners track the 
+performances of their services.
+Current Software
+•
+ERP: Netsuite  migrating to Oracle 
+Fusion. Go-live: Feb 2022*
+•
+CRM: SFDC
+•
+HCM: Workday
+•
+ATS: Greenhouse
+•
+Productivity: G-Suite
+•
+BI Tools: Tableau
+•
+Cloud: AWS
+•
+ICM: Xactly
+•
+Territory : SFDC Maps
+•
+Sales Capacity: Adaptive
+Pipeline
+•
+Renewal: 8/31/2021
+•
+Person A
+•
+Person B
+•
+Person C
+•
+Current Opportunity: 
+•
+Territory, Quota, Capacity, Acct Seg
+•
+Evaluation pending
+•
+Estimated Close Date: 
+early/mid June
+•
+Phase 1: Quota and Capacity
+•
+Phase 2: Territory Planning
+•
+New Relic Team Team: GTM 
+and Procurement
+•
+Partner: Slalom / EY
+•
+Cloud Spend (AWS): 
+•
+Evaluation delayed
+•
+Twilio Team: Finance
+•
+Partner: Spaulding Ridge
+Commercial 
+Relationship
+Detail
+Current ARR$274,867
+Opportunity 
+Pipeline
+$450,000
+Workspace 
+Utilization
+69%
+$-based Utilization69%
+Contracted Licenses10MB, 103 Users
+LVL 2/3/Master 
+Anaplanners
+0
+COE?Yes
+Customer SinceAug 2015
+Renewal Date10/31/2021
+Current Contract
+Professional;             
+3 yr term
+Deployment 
+Partner
+Enquero / Slalom / 
+EY
+Account Overview
+*Hyperion is bundled into EPM purchase. 
+Twilio is exploring how Anaplan and 
+Hyperion can co-exist for FP&A
+
+•
+Click to add Text
+4
+Strategic Initiatives
+
+Twilio
+Strategic Initiatives 
+Twilio 
+Needs
+Anaplan
+Solutions & Use Cases
+Anaplan
+Experience
+Continue Significant Investment in Existing 
+Technology Platform
+Grow Developer Community and Accelerate 
+Adoption
+Increase International Presence
+Further Penetrate the Enterprises
+Expand Partner Channel
+Selectively Pursue Acquisitions and Strategic 
+Investments
+Invest in building new software capabilities and 
+extending the Twilio platform. Twilio’s R&D team is 
+42% of headcount as of December 31, 2020
+Believe there is significant opportunity for revenue 
+growth from developers who have active Twilio 
+accounts but have not yet built their applications or 
+have applications in their infancy and will transition 
+into an Active Customer Account
+Expand outside the US and collaborating with 
+international strategic partners. Revenue from int’l 
+customers account for 27% of total revenue for year 
+ended December 31,2020
+Continue investing in sales and marketing and 
+extending enterprise-focused use cases and platform 
+capabilities
+Expanding partner ecosystem
+Selectively pursue acquisitions and strategic 
+investments in businesses and technologies that 
+strengthen Twilio’s platform
+SPM:
+•
+Sales Capacity
+•
+Incentive Compensation
+•
+Sales Crediting
+•
+Target Setting
+•
+Pipeline Management
+•
+Pipeline Optimization
+•
+Revenue Attainment & 
+Insights
+Finance:
+•
+LRP & Strategic planning
+•
+OPEX, CAPEX, COGS
+•
+Headcount Planning
+•
+Revenue Forecasting
+•
+Balance Sheet & Cashflow
+HR:
+•
+Workforce planning
+•
+Talent Strategy
+•
+Recruiting Pipeline
+•
+Diversity & Inclusion
+•
+Facilities Optimization
+Marketing:
+•
+Marketing Spend
+•
+Marketing Performance
+Strategic Initiatives (10K) & Anaplan POV
+
+•
+Click to add Text
+6
+Current Anaplan Deployment
+
+Headcount
+Oracle
+Other
+Workday
+Deal Desk
+COGS
+Marketing 
+Performance
+ OpEx
+Strategic & 
+Long Range
+Planning
+Income 
+Statement
+Incentive 
+Comp
+(Xactly)
+Territory
+Planning
+(SFDC Maps) 
+Quota 
+Modeling
+Product 
+Profitability
+Sales 
+Forecasting
+In Use Today
+Revenue
+Planning
+Finance
+Sales Ops
+Marketing
+CapEx
+Spend Tracking 
+& Forecasting
+Workforce 
+Planning
+(HR only)
+Predictive 
+Insights
+SMS
+Revenue
+(part of 
+Revenue 
+Planning)
+Vendor 
+Spend
+Landscape  Potential
+Balance Sheet 
+and Cash Flow
+Segmentation 
+& Scoring
+Sales
+Capacity
+(Adaptive)
+Cloud Spend
+(part of COGS)
+ Being Implemented
+Opportunities
+Recruiting
+Pipeline
+Procurement
+HR
+Pipeline
+Contribution
+Budget 
+Allocation
+
+•
+Click to add Text
+8
+Current Anaplan Opportunity
+
+Headcount
+Oracle
+Other
+Workday
+Deal Desk
+COGS
+Marketing 
+Performance
+ OpEx
+Strategic & 
+Long Range
+Planning
+Income 
+Statement
+Incentive 
+Comp
+(Xactly)
+Territory
+Planning
+(SFDC Maps) 
+Quota 
+Modeling
+Product 
+Profitability
+Sales 
+Forecasting
+In Use Today
+Revenue
+Planning
+Finance
+Sales Ops
+Marketing
+CapEx
+Spend Tracking 
+& Forecasting
+Workforce 
+Planning
+(HR only)
+Predictive 
+Insights
+SMS
+Revenue
+(part of 
+Revenue 
+Planning)
+Vendor 
+Spend
+Landscape  Potential
+Balance Sheet 
+and Cash Flow
+Segmentation 
+& Scoring
+Sales
+Capacity
+(Adaptive)
+Cloud Spend
+(part of COGS)
+ Being Implemented
+Opportunities
+Recruiting
+Pipeline
+Procurement
+HR
+Pipeline
+Contribution
+Budget 
+Allocation
+
+•
+Click to add Text
+10
+Org Chart
+
+CCh
+Org Chart- Operations
+Jeff Lawson
+CEO & Chairman 
+George Hu
+COO
+Tom Martinez
+VP Sales & Business Ops
+Anshuman Kar
+VP GTM Strategy & 
+Analytics
+Austin Kiessig
+Sr. Dir, GTM Strategy & 
+Analytics
+James Wang
+Dir, GTM Strategy 
+Altaf Remtulla
+Sales Strategy & Field 
+Ops Lead
+Patrick Broback
+Dir, GTM Strategic 
+Projects
+Megan Luu
+TBD
+Wen Cong Toh
+Strategy Analyst
+Emily Richtsmeier
+Sr Analyst, Sales 
+Strategy & Analytics
+Inessa Wu
+VP Global Sales Ops
+Alex Gousinov
+Head of Sales Comp
+Michelle Nelson
+Sr Dir Global Comp
+Jeff Piper
+Dir, Global Sales Comp
+Vee Sandhu
+VP, Global Sourcing & 
+Procurement
+Anand Iyer
+Dir Strategic Sourcing 
+Jeff Rideout
+Mgr, Tech Strategic 
+Sourcing
+ON BOARD
+Champion or Coach of Anaplan 
+ENGAGED
+Knows Anaplan or User and supports/is interested
+NEUTRAL
+Knows Anaplan but opinion is unclear
+NEED TO INTRO
+Need to intro/connect to ELT
+DETRACTOR
+Actively Fighting Anaplan
+Ana
+Bill

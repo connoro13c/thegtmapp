@@ -1,0 +1,154 @@
+100MCeiling.pptx
+
+
+
+Anaplan Against Adaptive
+12 Replacements
+11 Head-to-Head Wins
+1 Partial Replacement... soon to be full
+Account NameImplemented?Using for Finance?Connected to NetSuite?Adaptive Replacement
+AdRoll
+YesYesYes
+Partial
+Yes=Yes
+AppDynamics
+YesYesYesYesNo=
+No
+Atlassian
+YesYesYesYesWon=
+Beat Adaptive in Head-to-Head
+Avant Credit 
+YesYesYesNo
+Partial
+=
+Partial Rip Out
+Birst
+YesYesYesNo
+N/A
+=
+Data Could Not be Found
+Blue Apron
+NoYesNoNo
+Box
+YesYesYesYes
+Cherwell
+NoYesYesWon
+Cloudera
+YesYesYes
+N/A
+Concur
+YesYesYesYes
+Corel Corporation
+YesYesYes
+N/A
+Cornerstone OnDemand 
+NoYes
+N/AN/A
+Cylance
+YesYesYesWon
+DataStax
+YesYesYesWon
+DocuSign
+YesYesYesYes
+Jive
+YesYesYesWon
+JustFab
+YesYesYesYes
+Kabaam
+YesYesYesYes
+Lookout
+NoYesN/AWon
+Mulesoft
+NoYesYesWon
+New Relic
+YesYesN/AYes
+Okta
+YesYesYesWon
+OpenDNS
+YesYesYesWon
+Pandora
+YesYesNoYes
+Prosper
+YesYesN/AWon
+Puppet Labs
+YesYesNoYes
+PureStorage
+YesNoYesWon
+RingCentral
+YesYesN/a
+N/A
+Solar Winds
+YesYesYesYes
+SunRun
+YesYesNoYes
+Tableau
+YesYesN/AN/A
+Zenefits
+YesYesN/AWon
+
+Why Anaplan?
+SpeedComplexity
+Integrated 
+Planning
+The “$100 Million Dollar Ceiling”
+“Our business has 
+become so 
+complex... our 
+tools began to 
+break down.”
+“When we were 
+small, we were 
+agile. Then we 
+slowed to a 
+crawl. All we do is 
+react now”
+Our left hand 
+doesn’t know 
+what the right is 
+doing.”
+“Buying X was a 
+poor, short-
+sighted decision”
+
+Unstoppable performance is an evolution
+Productivity
+B
+u
+s
+i
+n
+e
+s
+s
+ 
+P
+e
+r
+f
+o
+r
+m
+a
+n
+c
+e
+Integrated 
+business 
+planning
+Big picture view
+Control across distributed business
+Agility & scale for complexity 
+Go beyond 
+budgeting
+Link financial & operational drivers
+Plan for any area of the business
+Precision with granularity
+Plan, budget, 
+and report 
+faster
+Faster, less effort, more accurate
+Business user owned & operated
+Flexible, driver-based scenarios
+1.0
+2.0
+3.0
