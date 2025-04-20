@@ -6,10 +6,15 @@ import ChatInput from './ChatInput';
 
 // Source object structure that comes from the backend
 interface Source {
-  num: number;
-  file: string;
+  id: string;
+  label: string;
   url: string;
-  chunkId?: string;
+}
+
+// Context object structure from the backend
+interface Context {
+  id: string;
+  text: string;
 }
 
 interface Message {
@@ -18,6 +23,7 @@ interface Message {
   sender: 'user' | 'bot';
   timestamp: Date;
   sources?: Source[];
+  context?: Context[];
 }
 
 const ChatBot = () => {
@@ -88,8 +94,26 @@ const ChatBot = () => {
         
         // Handle structured response format from the backend
         if (typeof data === 'object' && data !== null) {
+          // Check for the new structured response format (answer/sources/context)
+          if (data.answer) {
+            responseText = data.answer;
+            
+            // Create bot message with structured data
+            const botMessage: Message = {
+              id: Date.now().toString(),
+              text: responseText,
+              sender: 'bot',
+              timestamp: new Date(),
+              sources: data.sources || [],
+              context: data.context || []
+            };
+            
+            setMessages((prev) => [...prev, botMessage]);
+            setIsLoading(false);
+            return; // Exit early as we've already handled the message
+          }
+          // Fallback for text-based format
           if (data.text) {
-            // New structured response format with text and sources
             responseText = data.text;
             
             // Create bot message with structured data
@@ -104,7 +128,7 @@ const ChatBot = () => {
             setMessages((prev) => [...prev, botMessage]);
             setIsLoading(false);
             return; // Exit early as we've already handled the message
-          } 
+          }
           
           if (data.message) {
             // Legacy format (plain string message)

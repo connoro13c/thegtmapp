@@ -1,79 +1,115 @@
-import { FC, MouseEvent, KeyboardEvent } from 'react';
+import * as React from 'react';
 import { motion } from 'framer-motion';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import Collapsible from './Collapsible';
+import './markdown-styles.css';
 
 // Source object structure that comes from the backend
 interface Source {
-  num: number;
-  file: string;
+  id: string;
+  label: string;
   url: string;
-  chunkId?: string;
 }
 
-// Updated Message interface to include sources
+// Context object structure from the backend
+interface Context {
+  id: string;
+  text: string;
+}
+
+// Updated Message interface to include sources and context
 interface Message {
   id: string;
   text: string;
   sender: 'user' | 'bot';
   timestamp: Date;
   sources?: Source[];
+  context?: Context[];
 }
 
 interface ChatMessageProps {
   message: Message;
 }
 
-const ChatMessage: FC<ChatMessageProps> = ({ message }) => {
+const ChatMessage: React.FC<ChatMessageProps> = ({ message }) => {
   const isBot = message.sender === 'bot';
   
-  // Function to handle citation clicks
-  const handleCitationClick = (e: MouseEvent<HTMLDivElement>) => {
-    const target = e.target as HTMLElement;
-    if (target.tagName === 'SUP' && target.dataset.sourceNum) {
-      const sourceNum = Number.parseInt(target.dataset.sourceNum, 10);
-      const source = message.sources?.find(s => s.num === sourceNum);
-      if (source?.url) {
-        window.open(source.url, '_blank');
-      }
+  // Function to handle citation clicks (wrapped in useCallback to maintain referential stability)
+  const handleCitationClick = React.useCallback((sourceId: string): void => {
+    const source = message.sources?.find(s => s.id === sourceId);
+    if (source?.url) {
+      window.open(source.url, '_blank');
     }
-  };
+  }, [message.sources]);
   
-  // Function to handle citation keyboard navigation
-  const handleKeyDown = (e: KeyboardEvent<HTMLDivElement>) => {
-    if (e.key === 'Enter' || e.key === ' ') {
-      const target = e.target as HTMLElement;
-      if (target.tagName === 'SUP' && target.dataset.sourceNum) {
-        e.preventDefault();
-        const sourceNum = Number.parseInt(target.dataset.sourceNum, 10);
-        const source = message.sources?.find(s => s.num === sourceNum);
+  // Add click handler for citations after the markdown renders
+  const markdownRef = React.useRef<HTMLDivElement>(null);
+  
+  React.useEffect(() => {
+    if (!markdownRef.current || !isBot) return;
+    
+    // Find all citation elements and add click handlers
+    const citations = markdownRef.current.querySelectorAll('sup');
+    for (const citation of Array.from(citations)) {
+      const text = citation.textContent;
+      if (!text) return;
+      
+      const match = text.match(/\[(\d+)\]/);
+      if (match) {
+        const sourceId = match[1];
+        const source = message.sources?.find(s => s.id === sourceId);
         if (source?.url) {
-          window.open(source.url, '_blank');
+          citation.classList.add('text-blue-600', 'cursor-pointer');
+          citation.setAttribute('role', 'button');
+          citation.setAttribute('tabindex', '0');
+          
+          // Create stable event listeners with sourceId closure
+          const clickHandler = () => handleCitationClick(sourceId);
+          const keydownHandler = (e: KeyboardEvent) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              handleCitationClick(sourceId);
+            }
+          };
+          
+          // Add the event listeners
+          citation.addEventListener('click', clickHandler);
+          citation.addEventListener('keydown', keydownHandler);
+          
+          // Store the handlers on the element for cleanup
+          // Define an interface for the extended HTMLElement
+          type ExtendedElement = HTMLElement & {
+            _clickHandler?: () => void;
+            _keydownHandler?: (e: KeyboardEvent) => void;
+          };
+          
+          const extendedCitation = citation as ExtendedElement;
+          extendedCitation._clickHandler = clickHandler;
+          extendedCitation._keydownHandler = keydownHandler;
         }
       }
     }
-  };
-  
-  // Format text with citation markers
-  const formatMessage = (text: string) => {
-    // Replace markdown citation syntax [^1] with HTML superscript
-    const formattedText = text.replace(/\[\^(\d+)\]/g, (_, num) => {
-      const source = message.sources?.find(s => s.num === Number.parseInt(num, 10));
-      if (source?.url) {
-        return `<sup class="text-blue-600 cursor-pointer" data-source-num="${num}">[${num}]</sup>`;
-      }
-      return `<sup>[${num}]</sup>`;
-    });
     
-    return (
-      <div 
-        dangerouslySetInnerHTML={{ __html: formattedText }}
-        onClick={handleCitationClick}
-        onKeyDown={handleKeyDown}
-        role="button"
-        tabIndex={0}
-      />
-    );
-  };
+    // Cleanup function to remove event listeners
+    return () => {
+      if (!markdownRef.current) return;
+      const citations = markdownRef.current.querySelectorAll('sup');
+      for (const citation of Array.from(citations)) {
+        // Use the extended element type
+        const extendedCitation = citation as HTMLElement & {
+          _clickHandler?: () => void;
+          _keydownHandler?: (e: KeyboardEvent) => void;
+        };
+        
+        const clickHandler = extendedCitation._clickHandler;
+        const keydownHandler = extendedCitation._keydownHandler;
+        
+        if (clickHandler) citation.removeEventListener('click', clickHandler);
+        if (keydownHandler) citation.removeEventListener('keydown', keydownHandler);
+      }
+    };
+  }, [isBot, message.sources, handleCitationClick]);
   
   return (
     <motion.div
@@ -87,17 +123,17 @@ const ChatMessage: FC<ChatMessageProps> = ({ message }) => {
       >
         {/* Sources list for bot messages */}
         {isBot && message.sources && message.sources.length > 0 && (
-          <Collapsible title="Sources / context">
+          <Collapsible title="Sources">
             <ul className="text-xs list-disc pl-4">
               {message.sources.map(source => (
-                <li key={source.num}>
+                <li key={source.id}>
                   <a 
                     href={source.url} 
                     target="_blank" 
                     rel="noreferrer"
                     className="text-blue-600 hover:underline"
                   >
-                    [{source.num}] {source.file}
+                    [{source.id}] {source.label}
                   </a>
                 </li>
               ))}
@@ -105,9 +141,31 @@ const ChatMessage: FC<ChatMessageProps> = ({ message }) => {
           </Collapsible>
         )}
         
+        {/* Context for bot messages */}
+        {isBot && message.context && message.context.length > 0 && (
+          <Collapsible title="Context">
+            <div className="text-xs bg-gray-50 p-2 rounded-md max-h-60 overflow-auto">
+              {message.context.map(ctx => (
+                <div key={ctx.id} className="mb-2 border-b border-gray-200 pb-2">
+                  <div className="font-semibold">[{ctx.id}]</div>
+                  <div>{ctx.text}</div>
+                </div>
+              ))}
+            </div>
+          </Collapsible>
+        )}
+        
         {/* Message content */}
         <div className="text-sm">
-          {isBot ? formatMessage(message.text) : message.text}
+          {isBot ? (
+            <div ref={markdownRef} className="markdown-content">
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                {message.text}
+              </ReactMarkdown>
+            </div>
+          ) : (
+            message.text
+          )}
         </div>
         
         <p className="text-xs mt-1 opacity-70">

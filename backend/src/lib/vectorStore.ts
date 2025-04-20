@@ -1,4 +1,4 @@
-import { ChromaClient } from 'chromadb';
+import { ChromaClient, IncludeEnum } from 'chromadb';
 import type { Collection } from 'chromadb';
 
 // Constants for ChromaDB configuration
@@ -80,5 +80,98 @@ export async function initVectorStore(collectionName = 'gtm_documents'): Promise
   } catch (error) {
     console.error('Error initializing vector store:', error);
     throw error;
+  }
+}
+
+/**
+ * Search for relevant documents using vector similarity search
+ * @param query The query text to search for
+ * @param limit Maximum number of results to return
+ * @returns Object with chunks, metadatas, and fallbackMode flag
+ */
+export async function vectorSearch(query: string, limit = 5): Promise<{ 
+  chunks: string[], 
+  metadatas: Record<string, unknown>[],
+  fallbackMode: boolean
+}> {
+  try {
+    // Get the ChromaDB collection
+    const collection = await initVectorStore();
+    
+    // Import OpenAI for generating embeddings
+    const { OpenAI } = await import('openai');
+    const openai = new OpenAI({
+      apiKey: process.env.OPENAI_API_KEY,
+    });
+    
+    // Generate embedding for the query
+    const response = await openai.embeddings.create({
+      model: 'text-embedding-3-small',
+      input: query,
+    });
+    const queryEmbedding = response.data[0].embedding;
+    
+    // Perform the vector search
+    const searchResult = await collection.query({
+      queryEmbeddings: [queryEmbedding],
+      nResults: limit,
+      include: [IncludeEnum.Metadatas, IncludeEnum.Documents]
+    });
+    
+    // Extract the results
+    const chunks: string[] = [];
+    const metadatas: Record<string, unknown>[] = [];
+    
+    if (searchResult.documents?.[0]) {
+      for (let i = 0; i < searchResult.documents[0].length; i++) {
+        const document = searchResult.documents[0][i];
+        const metadata = searchResult.metadatas?.[0]?.[i] || {};
+        
+        if (typeof document === 'string') {
+          chunks.push(document);
+          metadatas.push(metadata as Record<string, unknown>);
+        }
+      }
+    }
+    
+    return {
+      chunks,
+      metadatas,
+      fallbackMode: false
+    };
+  } catch (error) {
+    console.error('Error during vector search:', error);
+    
+    // Fallback to text cache search
+    try {
+      const { searchTextCache } = await import('./ingestFolder');
+      const results = await searchTextCache(query);
+      
+      const chunks = results.map(r => r.text);
+      const metadatas = results.map(r => ({ 
+        fileName: r.fileName,
+        fileId: r.fileId,
+        chunkIndex: 0,
+        totalChunks: 1
+      }));
+      
+      if (chunks.length > 0) {
+        console.log(`Found ${chunks.length} results using fallback text search`);
+        return { 
+          chunks,
+          metadatas,
+          fallbackMode: true
+        };
+      }
+    } catch (fallbackError) {
+      console.error('Fallback search failed:', fallbackError);
+    }
+    
+    // Return empty results if everything fails
+    return {
+      chunks: [],
+      metadatas: [],
+      fallbackMode: true
+    };
   }
 }
